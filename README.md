@@ -9,8 +9,8 @@ Driven to secure the digital world, Cybersecurity enthusiast with expertise in e
 ---
 
 ## 🌐 Find Me Online  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/)  
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/GauravGhandat-23)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/GauravGhandat-23)
+
 
 ---
 ## 💡 Skills  
