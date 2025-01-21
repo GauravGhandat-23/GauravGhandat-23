@@ -1,20 +1,27 @@
-# 💻 Gaurav Ghandat 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=13A6F7&background=9468FF00&width=500&lines=Hey+What's+Going+On+%3F;Hello+From+Gaurav+Ghandat+)](https://git.io/typing-svg)
+
+![github-header-image](https://github.com/user-attachments/assets/b13b1827-c3d0-4044-b101-c29cb45ba4e2)
+
+<p align='center'> 
+<a href="https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>&nbsp;&nbsp;
+<a href="https://github.com/GauravGhandat-23"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"></a>&nbsp;&nbsp;
+</p>
 
 ---
-
-## 🌟 About Me  
-Passionate **Cybersecurity Enthusiast** | **Computer Engineering Student**  
+<div align="center">
+<h3> 🥷🏻 Gaurav Ghandat  | 💻 Cyber Security Enthusiast | 🌏 India </h3> 
+</div>
+<div align="center">
+<p>  
+Passionate Cybersecurity Enthusiast | Computer Engineering Student  
 Driven to secure the digital world, Cybersecurity enthusiast with expertise in ethical hacking, vulnerability assessment, and web security. Passionate about solving challenges and protecting digital assets..
+</p>
+</div>
 
----
-
-## 🌐 Find Me Online  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/) [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)](https://github.com/GauravGhandat-23)
-
-
----
-## 💡 Skills  
-## Skills & Tools
+<div align="center">
+<h3> 💡 Skills & Tools </h3> 
+</div>
+<div align="center">
 
 ### Programming:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -46,7 +53,4 @@ Driven to secure the digital world, Cybersecurity enthusiast with expertise in e
 
 ---
 
-## 🌐 Find Me Online  
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/)  
-- [GitHub](https://github.com/GauravGhandat-23)  
 
