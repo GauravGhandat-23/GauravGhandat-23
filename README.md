@@ -1,5 +1,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=13A6F7&background=9468FF00&width=500&lines=Hey+What's+Going+On+%3F;Hello+From+Gaurav+Ghandat+)](https://git.io/typing-svg)
 
+upload demo video for the profile
+
+https://github.com/user-attachments/assets/b69bb9ff-e226-41e8-83d7-5a437f43ec87
+
 ![github-header-image](https://github.com/user-attachments/assets/b13b1827-c3d0-4044-b101-c29cb45ba4e2)
 
 <p align='center'> 
