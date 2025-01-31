@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=13A6F7&background=9468FF00&width=500&lines=Hey+What's+Going+On+%3F;Hello+From+Gaurav+Ghandat+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=13A6F7&background=9468FF00&width=500&lines=Welcome+to+My+Profile+%F0%9F%91%8B;I'm+a+Cyber-Security+Enthusiast+%F0%9F%92%BB;Let's+Build+Something+Awesome+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 ![github-header-image](https://github.com/user-attachments/assets/d8a1f079-4526-428d-b0c7-1717b3025f36)
 
