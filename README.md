@@ -2,27 +2,28 @@
 
 ![github-header-image](https://github.com/user-attachments/assets/d8a1f079-4526-428d-b0c7-1717b3025f36)
 
-<p align='center'> 
-<a href="https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>&nbsp;&nbsp;
-<a href="https://github.com/GauravGhandat-23"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"></a>&nbsp;&nbsp;
+<p align="center"> 
+  <a href="https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>&nbsp;&nbsp;
+  <a href="https://github.com/GauravGhandat-23"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"></a>&nbsp;&nbsp;
 </p>
 
 ---
+
 <div align="center">
-<h3> 🥷🏻 Gaurav Ghandat  | 💻 Cyber Security Enthusiast | 🌏 India </h3> 
+<h3> 🥷🏻 Gaurav Ghandat  | 💻 Cyber Security Enthusiast | 🌏 India </h3>
 </div>
+
 <div align="center">
 <p>  
-Passionate Cybersecurity Enthusiast | Computer Engineering Student  
-Driven to secure the digital world, Cybersecurity enthusiast with expertise in ethical hacking, vulnerability assessment, and web security. Passionate about solving challenges and protecting digital assets. AI-Driven Security Innovator with
-expertise in ethical hacking, vulnerability assessment, and secure software development. Proven track record of leveraging Machine Learning (ML) and Natural Language Processing (NLP) to build advanced threat detection systems. Committed to driving innovation in cybersecurity through cuttingedge technologies and proactive problem-solving.
-
+  Passionate Cybersecurity Enthusiast | Computer Engineering Student  
+  Driven to secure the digital world. A Cybersecurity enthusiast with expertise in ethical hacking, vulnerability assessment, and web security. Passionate about solving challenges and protecting digital assets. An AI-driven security innovator with expertise in ethical hacking, vulnerability assessment, and secure software development. Proven track record of leveraging Machine Learning (ML) and Natural Language Processing (NLP) to build advanced threat detection systems. Committed to driving innovation in cybersecurity through cutting-edge technologies and proactive problem-solving.
 </p>
 </div>
 
 <div align="center">
 <h3> 💡 Skills & Tools </h3> 
 </div>
+
 <div align="center">
 
 ### Programming:
@@ -47,7 +48,6 @@ expertise in ethical hacking, vulnerability assessment, and secure software deve
 ![TCP/IP](https://img.shields.io/badge/TCP/IP-2196F3?style=flat-square&logo=googlechrome&logoColor=white)
 ![IDS/IPS](https://img.shields.io/badge/IDS/IPS-00BCD4?style=flat-square&logo=windows&logoColor=white)
 
-
 ### Technology:
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -55,7 +55,6 @@ expertise in ethical hacking, vulnerability assessment, and secure software deve
 ![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF8C00?style=flat-square&logo=google-cloud&logoColor=white)
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-FF5733?style=flat-square&logo=python&logoColor=white)
-
 
 ### Other Skills:
 ![Analytical Problem-Solving](https://img.shields.io/badge/Analytical_Problem_Solving-ff5733?style=flat-square&logo=codeforces&logoColor=white)
@@ -69,9 +68,12 @@ expertise in ethical hacking, vulnerability assessment, and secure software deve
 ![Curiosity and Initiative](https://img.shields.io/badge/Curiosity_and_Initiative-F4B400?style=flat-square&logo=lightbulb&logoColor=white)
 ![Problem-Solving](https://img.shields.io/badge/Problem_Solving-9C27B0?style=flat-square&logo=codeforces&logoColor=white)
 
-
-
-
 ---
 
+<p align="center">
+  <strong>📧 Feel free to connect with me or check out my repositories below. Let's collaborate and innovate for a secure digital future! 🔐</strong>
+</p>
 
+<p align="center">
+  <a href="https://github.com/GauravGhandat-23?tab=repositories">My GitHub Repositories</a>
+</p>
