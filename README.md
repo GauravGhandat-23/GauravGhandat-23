@@ -10,13 +10,12 @@
 ---
 
 <div align="center">
-<h3> 🥷🏻 Gaurav Ghandat  | 💻 Cyber Security Enthusiast | 🌏 India </h3>
+<h3> 🥷🏻 𝕲𝖆𝖚𝖗𝖆𝖛 𝕲𝖍𝖆𝖓𝖉𝖆𝖙  | 💻 𝕮𝖞𝖇𝖊𝖗 𝕾𝖊𝖈𝖚𝖗𝖎𝖙𝖞 𝕰𝖓𝖙𝖍𝖚𝖘𝖎𝖆𝖘𝖙 | 🌏 𝕴𝖓𝖉𝖎𝖆 </h3>
 </div>
 
 <div align="center">
 <p>  
-  Passionate Cybersecurity Enthusiast | Computer Engineering Student  
-  Driven to secure the digital world. A Cybersecurity enthusiast with expertise in ethical hacking, vulnerability assessment, and web security. Passionate about solving challenges and protecting digital assets. An AI-driven security innovator with expertise in ethical hacking, vulnerability assessment, and secure software development. Proven track record of leveraging Machine Learning (ML) and Natural Language Processing (NLP) to build advanced threat detection systems. Committed to driving innovation in cybersecurity through cutting-edge technologies and proactive problem-solving.
+ℙ𝕒𝕤𝕤𝕚𝕠𝕟𝕒𝕥𝕖 ℂ𝕪𝕓𝕖𝕣𝕤𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝔼𝕟𝕘𝕚𝕟𝕖𝕖𝕣 𝕒𝕟𝕕 𝔸𝕀-𝔻𝕣𝕚𝕧𝕖𝕟 𝕊𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝕀𝕟𝕟𝕠𝕧𝕒𝕥𝕠𝕣 𝕨𝕚𝕥𝕙 𝕖𝕩𝕡𝕖𝕣𝕥𝕚𝕤𝕖 𝕚𝕟 𝕖𝕥𝕙𝕚𝕔𝕒𝕝 𝕙𝕒𝕔𝕜𝕚𝕟𝕘, 𝕧𝕦𝕝𝕟𝕖𝕣𝕒𝕓𝕚𝕝𝕚𝕥𝕪 𝕒𝕤𝕤𝕖𝕤𝕤𝕞𝕖𝕟𝕥, 𝕒𝕟𝕕 𝕤𝕖𝕔𝕦𝕣𝕖 𝕤𝕠𝕗𝕥𝕨𝕒𝕣𝕖 𝕕𝕖𝕧𝕖𝕝𝕠𝕡𝕞𝕖𝕟𝕥. ℙ𝕣𝕠𝕧𝕖𝕟 𝕥𝕣𝕒𝕔𝕜 𝕣𝕖𝕔𝕠𝕣𝕕 𝕠𝕗 𝕝𝕖𝕧𝕖𝕣𝕒𝕘𝕚𝕟𝕘 𝕄𝕒𝕔𝕙𝕚𝕟𝕖 𝕃𝕖𝕒𝕣𝕟𝕚𝕟𝕘 (𝕄𝕃) 𝕒𝕟𝕕 ℕ𝕒𝕥𝕦𝕣𝕒𝕝 𝕃𝕒𝕟𝕘𝕦𝕒𝕘𝕖 ℙ𝕣𝕠𝕔𝕖𝕤𝕤𝕚𝕟𝕘 (ℕ𝕃ℙ) 𝕥𝕠 𝕓𝕦𝕚𝕝𝕕 𝕒𝕕𝕧𝕒𝕟𝕔𝕖𝕕 𝕥𝕙𝕣𝕖𝕒𝕥 𝕕𝕖𝕥𝕖𝕔𝕥𝕚𝕠𝕟 𝕤𝕪𝕤𝕥𝕖𝕞𝕤. ℂ𝕠𝕞𝕞𝕚𝕥𝕥𝕖𝕕 𝕥𝕠 𝕕𝕣𝕚𝕧𝕚𝕟𝕘 𝕚𝕟𝕟𝕠𝕧𝕒𝕥𝕚𝕠𝕟 𝕚𝕟 𝕔𝕪𝕓𝕖𝕣𝕤𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝕥𝕙𝕣𝕠𝕦𝕘𝕙 𝕔𝕦𝕥𝕥𝕚𝕟𝕘𝕖𝕕𝕘𝕖 𝕥𝕖𝕔𝕙𝕟𝕠𝕝𝕠𝕘𝕚𝕖𝕤 𝕒𝕟𝕕 𝕡𝕣𝕠𝕒𝕔𝕥𝕚𝕧𝕖 𝕡𝕣𝕠𝕓𝕝𝕖𝕞-𝕤𝕠𝕝𝕧𝕚𝕟𝕘.
 </p>
 </div>
 
@@ -36,6 +35,11 @@
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A4?style=flat-square&logo=wireshark&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-8E1B1B?style=flat-square&logo=burp-suite&logoColor=white)
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C8B?style=flat-square&logo=kali-linux&logoColor=white)
+![Maltego](https://img.shields.io/badge/Maltego-000000?style=flat-square&logo=maltego&logoColor=white)
+![Shodan](https://img.shields.io/badge/Shodan-FF0000?style=flat-square&logo=shodan&logoColor=white)
+![SQLMap](https://img.shields.io/badge/SQLMap-yellow?style=flat-square&logo=sqlite&logoColor=white)
+![Acunetix](https://img.shields.io/badge/Acunetix-red?style=flat-square&logo=acunetix&logoColor=white)
+![MSFVenom](https://img.shields.io/badge/MSFVenom-555?style=flat-square&logo=metasploit&logoColor=white)
 
 ### Networking & Security:
 ![Network Traffic Analysis](https://img.shields.io/badge/Network_Traffic_Analysis-4CAF50?style=flat-square&logo=router&logoColor=white)
@@ -47,6 +51,23 @@
 ![VAPT](https://img.shields.io/badge/VAPT-FF9800?style=flat-square&logo=gitlab&logoColor=white)
 ![TCP/IP](https://img.shields.io/badge/TCP/IP-2196F3?style=flat-square&logo=googlechrome&logoColor=white)
 ![IDS/IPS](https://img.shields.io/badge/IDS/IPS-00BCD4?style=flat-square&logo=windows&logoColor=white)
+![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-000000?style=flat-square&logo=hackthebox&logoColor=white)
+![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-ff0000?style=flat-square&logo=kali-linux&logoColor=white)
+![Vulnerability Assessment](https://img.shields.io/badge/Vulnerability_Assessment-blue?style=flat-square&logo=nessus&logoColor=white)
+![Network Security](https://img.shields.io/badge/Network_Security-green?style=flat-square&logo=cisco&logoColor=white)
+![Reconnaissance](https://img.shields.io/badge/Reconnaissance-purple?style=flat-square&logo=shodan&logoColor=white)
+![Web Application Security](https://img.shields.io/badge/Web_Application_Security-orange?style=flat-square&logo=burp-suite&logoColor=white)
+![OSINT](https://img.shields.io/badge/OSINT-ff5733?style=flat-square&logo=osint&logoColor=white)
+![Threat Intelligence](https://img.shields.io/badge/Threat_Intelligence-008000?style=flat-square&logo=threat-intelligence&logoColor=white)
+![Cryptography](https://img.shields.io/badge/Cryptography-800080?style=flat-square&logo=gnupg&logoColor=white)
+![Secure Authentication](https://img.shields.io/badge/Secure_Authentication-0055ff?style=flat-square&logo=auth0&logoColor=white)
+![Linux Security](https://img.shields.io/badge/Linux_Security-fcc624?style=flat-square&logo=linux&logoColor=black)
+![System Hardening](https://img.shields.io/badge/System_Hardening-darkred?style=flat-square&logo=ubuntu&logoColor=white)
+![Exploitation and Attack Simulation](https://img.shields.io/badge/Exploitation_&_Attack_Simulation-darkgreen?style=flat-square&logo=metasploit&logoColor=white)
+![Security Monitoring](https://img.shields.io/badge/Security_Monitoring-0055ff?style=flat-square&logo=splunk&logoColor=white)
+![Incident Response](https://img.shields.io/badge/Incident_Response-ff7700?style=flat-square&logo=thealgorithms&logoColor=white)
+![Capture the Flag (CTF)](https://img.shields.io/badge/CTF-9932CC?style=flat-square&logo=ctftime&logoColor=white)
+![Practical Hacking](https://img.shields.io/badge/Practical_Hacking-222222?style=flat-square&logo=hackerrank&logoColor=white)
 
 ### Technology:
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
