@@ -56,17 +56,6 @@
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF8C00?style=flat-square&logo=google-cloud&logoColor=white)
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-FF5733?style=flat-square&logo=python&logoColor=white)
 
-### Other Skills:
-![Analytical Problem-Solving](https://img.shields.io/badge/Analytical_Problem_Solving-ff5733?style=flat-square&logo=codeforces&logoColor=white)
-![Secure User Access Management](https://img.shields.io/badge/Secure_User_Access_Management-4CAF50?style=flat-square&logo=trustpilot&logoColor=white)
-![Vulnerability Assessment](https://img.shields.io/badge/Vulnerability_Assessment-FFD700?style=flat-square&logo=bugcrowd&logoColor=white)
-
-### Soft Skills:
-![Communication](https://img.shields.io/badge/Communication-FF5733?style=flat-square&logo=wechat&logoColor=white)
-![Adaptability](https://img.shields.io/badge/Adaptability-4285F4?style=flat-square&logo=sync&logoColor=white)
-![Teamwork](https://img.shields.io/badge/Teamwork-34A853?style=flat-square&logo=people&logoColor=white)
-![Curiosity and Initiative](https://img.shields.io/badge/Curiosity_and_Initiative-F4B400?style=flat-square&logo=lightbulb&logoColor=white)
-![Problem-Solving](https://img.shields.io/badge/Problem_Solving-9C27B0?style=flat-square&logo=codeforces&logoColor=white)
 
 ---
 
