@@ -5,6 +5,9 @@
 <p align="center"> 
   <a href="https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>&nbsp;&nbsp;
   <a href="https://github.com/GauravGhandat-23"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"></a>&nbsp;&nbsp;
+  <a href="https://my-portfolio-lgfc.vercel.app/" target="_blank">
+  <img height="25" src="https://img.icons8.com/ios-filled/50/0A66C2/domain.png" alt="Portfolio"/>
+</a>&nbsp;&nbsp;
 </p>
 
 ---
