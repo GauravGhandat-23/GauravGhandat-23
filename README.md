@@ -12,9 +12,9 @@
 
 ---
 
-# 👋 𝕳𝖎, 𝕴’𝖒 **𝕲𝖆𝖚𝖗𝖆𝖛 𝕲𝖍𝖆𝖓𝖉𝖆𝖙**
+<h1 align="center">👋 𝕳𝖎, 𝕴’𝖒 𝕲𝖆𝖚𝖗𝖆𝖛 𝕲𝖍𝖆𝖓𝖉𝖆𝖙</h1>
 
-### 🛡️ 𝕮𝖞𝖇𝖊𝖗𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 | 𝕰𝖙𝖍𝖎𝖈𝖆𝖑 𝕳𝖆𝖈𝖐𝖎𝖓𝖌 | 𝕾𝕺𝕮 | 𝕭𝖑𝖚𝖊 & 𝕽𝖊𝖉 𝕿𝖊𝖆𝖒 𝕰𝖓𝖙𝖍𝖚𝖘𝖎𝖆𝖘𝖙
+<h3 align="center">🛡️ 𝕮𝖞𝖇𝖊𝖗𝖘𝖊𝖈𝖚𝖗𝖎𝖙𝖞 | 𝕰𝖙𝖍𝖎𝖈𝖆𝖑 𝕳𝖆𝖈𝖐𝖎𝖓𝖌 | 𝕾𝕺𝕮 | 𝕭𝖑𝖚𝖊 & 𝕽𝖊𝖉 𝕿𝖊𝖆𝖒 𝕰𝖓𝖙𝖍𝖚𝖘𝖎𝖆𝖘𝖙</h3>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=GauravGhandat-23\&color=blueviolet\&style=flat-square)
 ![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-red?style=flat-square)
@@ -24,10 +24,10 @@
 
 ## 🚀 ᗩᗷOᑌT ᗰE
 
-🔐 EᑎTᖇY-ᒪEᐯEᒪ **ᑕYᗷEᖇᔕEᑕᑌᖇITY ᑭᖇOᖴEᔕᔕIOᑎᗩᒪ** ᑭᗩᔕᔕIOᑎᗩTE ᗩᗷOᑌT **ᔕEᑕᑌᖇIᑎG ᔕYᔕTEᗰᔕ, ᕼᑌᑎTIᑎG ᐯᑌᒪᑎEᖇᗩᗷIᒪITIEᔕ, ᗩᑎᗪ ᗪETEᑕTIᑎG TᕼᖇEᗩTᔕ**.
-🧠 ᕼᗩᑎᗪᔕ-Oᑎ E᙭ᑭEᖇIEᑎᑕE Iᑎ **ᑭEᑎETᖇᗩTIOᑎ TEᔕTIᑎG, ᔕOᑕ OᑭEᖇᗩTIOᑎᔕ, Iᗩᗰ, OᔕIᑎT, ᗩᑎᗪ IᑎᑕIᗪEᑎT ᖇEᔕᑭOᑎᔕE**.
-🛠️ ᔕKIᒪᒪEᗪ ᗯITᕼ ᖇEᗩᒪ-ᗯOᖇᒪᗪ TOOᒪᔕ ᑌᔕEᗪ ᗷY **ᖇEᗪ TEᗩᗰᔕ & ᗷᒪᑌE TEᗩᗰᔕ**.
-🎯 ᗩᑕTIᐯEᒪY ᑭᖇEᑭᗩᖇIᑎG ᖴOᖇ **ᔕEᑕᑌᖇITY ᗩᑎᗩᒪYᔕT / ᔕOᑕ ᗩᑎᗩᒪYᔕT / ᑭEᑎTEᔕTEᖇ ᖇOᒪEᔕ**.
+- 🔐 EᑎTᖇY-ᒪEᐯEᒪ **ᑕYᗷEᖇᔕEᑕᑌᖇITY ᑭᖇOᖴEᔕᔕIOᑎᗩᒪ** ᑭᗩᔕᔕIOᑎᗩTE ᗩᗷOᑌT **ᔕEᑕᑌᖇIᑎG ᔕYᔕTEᗰᔕ, ᕼᑌᑎTIᑎG ᐯᑌᒪᑎEᖇᗩᗷIᒪITIEᔕ, ᗩᑎᗪ ᗪETEᑕTIᑎG TᕼᖇEᗩTᔕ**.
+- 🧠 ᕼᗩᑎᗪᔕ-Oᑎ E᙭ᑭEᖇIEᑎᑕE Iᑎ **ᑭEᑎETᖇᗩTIOᑎ TEᔕTIᑎG, ᔕOᑕ OᑭEᖇᗩTIOᑎᔕ, Iᗩᗰ, OᔕIᑎT, ᗩᑎᗪ IᑎᑕIᗪEᑎT ᖇEᔕᑭOᑎᔕE**.
+- 🛠️ ᔕKIᒪᒪEᗪ ᗯITᕼ ᖇEᗩᒪ-ᗯOᖇᒪᗪ TOOᒪᔕ ᑌᔕEᗪ ᗷY **ᖇEᗪ TEᗩᗰᔕ & ᗷᒪᑌE TEᗩᗰᔕ**.
+- 🎯 ᗩᑕTIᐯEᒪY ᑭᖇEᑭᗩᖇIᑎG ᖴOᖇ **ᔕEᑕᑌᖇITY ᗩᑎᗩᒪYᔕT / ᔕOᑕ ᗩᑎᗩᒪYᔕT / ᑭEᑎTEᔕTEᖇ ᖇOᒪEᔕ**.
 
 📍 **Nashik, India**
 📫 **Email:** [gauravghandat23@gmail.com](mailto:gauravghandat23@gmail.com)
