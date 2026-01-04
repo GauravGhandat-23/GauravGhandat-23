@@ -12,123 +12,125 @@
 
 ---
 
-<div align="center">
-<h3> 🥷🏻 𝕲𝖆𝖚𝖗𝖆𝖛 𝕲𝖍𝖆𝖓𝖉𝖆𝖙  | 💻 𝕮𝖞𝖇𝖊𝖗 𝕾𝖊𝖈𝖚𝖗𝖎𝖙𝖞 𝕰𝖓𝖙𝖍𝖚𝖘𝖎𝖆𝖘𝖙 | 🌏 𝕴𝖓𝖉𝖎𝖆 </h3>
-</div>
+# 👋 Hi, I’m **Gaurav Ghandat**
 
-<div align="center">
-<p>  
-𝔼𝕟𝕥𝕣𝕪-𝕝𝕖𝕧𝕖𝕝 ℂ𝕪𝕓𝕖𝕣 𝕊𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝔸𝕟𝕒𝕝𝕪𝕤𝕥 𝕨𝕚𝕥𝕙 𝕙𝕒𝕟𝕕𝕤-𝕠𝕟 𝕖𝕩𝕡𝕖𝕣𝕚𝕖𝕟𝕔𝕖 𝕚𝕟 𝕡𝕖𝕟𝕖𝕥𝕣𝕒𝕥𝕚𝕠𝕟 𝕥𝕖𝕤𝕥𝕚𝕟𝕘, 𝕃𝕚𝕟𝕦𝕩 𝕤𝕖𝕔𝕦𝕣𝕚𝕥𝕪, 𝕟𝕖𝕥𝕨𝕠𝕣𝕜 𝕒𝕟𝕒𝕝𝕪𝕤𝕚𝕤, 𝕒𝕟𝕕 𝕊𝕆ℂ 𝕗𝕦𝕟𝕕𝕒𝕞𝕖𝕟𝕥𝕒𝕝𝕤. 𝕀’𝕧𝕖 𝕡𝕖𝕣𝕗𝕠𝕣𝕞𝕖𝕕 𝕨𝕖𝕓 𝕒𝕡𝕡 𝕥𝕖𝕤𝕥𝕚𝕟𝕘 (𝕊ℚ𝕃𝕚, 𝕏𝕊𝕊, 𝕒𝕦𝕥𝕙𝕖𝕟𝕥𝕚𝕔𝕒𝕥𝕚𝕠𝕟 𝕗𝕝𝕒𝕨𝕤), 𝕔𝕠𝕟𝕕𝕦𝕔𝕥𝕖𝕕 𝕆𝕊𝕀ℕ𝕋 𝕚𝕟𝕧𝕖𝕤𝕥𝕚𝕘𝕒𝕥𝕚𝕠𝕟𝕤, 𝕒𝕟𝕕 𝕚𝕞𝕡𝕣𝕠𝕧𝕖𝕕 𝕤𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝕡𝕠𝕤𝕥𝕦𝕣𝕖 𝕥𝕙𝕣𝕠𝕦𝕘𝕙 𝕧𝕦𝕝𝕟𝕖𝕣𝕒𝕓𝕚𝕝𝕚𝕥𝕪 𝕒𝕤𝕤𝕖𝕤𝕤𝕞𝕖𝕟𝕥𝕤.
+### 🛡️ Cybersecurity | Ethical Hacking | SOC | Blue & Red Team Enthusiast
 
-𝕄𝕪 𝕥𝕖𝕔𝕙𝕟𝕚𝕔𝕒𝕝 𝕥𝕠𝕠𝕝𝕜𝕚𝕥 𝕚𝕟𝕔𝕝𝕦𝕕𝕖𝕤 𝔹𝕦𝕣𝕡 𝕊𝕦𝕚𝕥𝕖, ℕ𝕞𝕒𝕡, 𝕄𝕖𝕥𝕒𝕤𝕡𝕝𝕠𝕚𝕥, 𝕎𝕚𝕣𝕖𝕤𝕙𝕒𝕣𝕜, 𝕃𝕚𝕟𝕦𝕩, ℙ𝕪𝕥𝕙𝕠𝕟, 𝕒𝕟𝕕 𝕊𝕀𝔼𝕄 𝕔𝕠𝕟𝕔𝕖𝕡𝕥𝕤. 𝕎𝕚𝕥𝕙 𝕀𝕟𝕕𝕦𝕤𝕥𝕣𝕚𝕖𝕤 𝔹𝕒𝕤𝕖𝕕 𝕥𝕣𝕒𝕚𝕟𝕚𝕟𝕘 𝕝𝕚𝕜𝕖 ℂℂℕ𝔸, 𝕄ℂ𝕊𝔸, ℝℍℂ𝕊𝔸, 𝕒𝕟𝕕 ℝℍℂ𝔼, 𝕀 𝕓𝕣𝕚𝕟𝕘 𝕤𝕥𝕣𝕠𝕟𝕘 𝕟𝕖𝕥𝕨𝕠𝕣𝕜𝕚𝕟𝕘 𝕒𝕟𝕕 𝕤𝕪𝕤𝕥𝕖𝕞 𝕒𝕕𝕞𝕚𝕟𝕚𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟 𝕜𝕟𝕠𝕨𝕝𝕖𝕕𝕘𝕖 𝕒𝕝𝕠𝕟𝕘 𝕨𝕚𝕥𝕙 𝕔𝕪𝕓𝕖𝕣𝕤𝕖𝕔𝕦𝕣𝕚𝕥𝕪 𝕤𝕜𝕚𝕝𝕝𝕤.
-</p>
-</div>
-
-<div align="center">
-<h3> 💡 Skills & Tools </h3> 
-</div>
-
-<div align="center">
+![Profile Views](https://komarev.com/ghpvc/?username=GauravGhandat-23\&color=blueviolet\&style=flat-square)
+![Cybersecurity](https://img.shields.io/badge/Focus-Cybersecurity-red?style=flat-square)
+![Open Source](https://img.shields.io/badge/Open%20Source-Lover-brightgreen?style=flat-square)
 
 ---
 
-## 🏆 Certifications & Internships
+## 🚀 About Me
 
-### 🎓 Professional & Core Certifications
+🔐 Entry-level **Cybersecurity Professional** passionate about **securing systems, hunting vulnerabilities, and detecting threats**.
+🧠 Hands-on experience in **Penetration Testing, SOC operations, IAM, OSINT, and Incident Response**.
+🛠️ Skilled with real-world tools used by **red teams & blue teams**.
+🎯 Actively preparing for **Security Analyst / SOC Analyst / Pentester roles**.
 
-
-[![Google Cybersecurity](https://img.shields.io/badge/Google-Cybersecurity%20Professional%20Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/verify/professional-cert/KCKP7UKVMWL9)
-
-[![IBM Cybersecurity Fundamentals](https://img.shields.io/badge/IBM-Cybersecurity%20Fundamentals-052FAD?style=for-the-badge&logo=ibm&logoColor=white)](https://www.credly.com/badges/9cf448f1-9def-446e-82f5-2a59e42fe2e6)
-
-[![Cisco Cybersecurity](https://img.shields.io/badge/Cisco-Introduction%20to%20Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)](#)
-
-[![HP Cybersecurity Awareness](https://img.shields.io/badge/HP-Intro%20to%20Cybersecurity%20Awareness-0096D6?style=for-the-badge&logo=hp&logoColor=white)](#)
+📍 **Nashik, India**
+📫 **Email:** [gauravghandat23@gmail.com](mailto:gauravghandat23@gmail.com)
+🔗 **LinkedIn:** [https://linkedin.com/in/gaurav-ghandat-68a5a22b4](https://linkedin.com/in/gaurav-ghandat-68a5a22b4)
 
 ---
 
-### 🛡️ Ethical Hacking, Linux & Threat Intelligence
+## 🏆 Certifications & Credentials
 
-[![Edureka Cyber Security](https://img.shields.io/badge/Edureka-Cyber%20Security%20%26%20Ethical%20Hacking-blue?style=for-the-badge&logo=hackaday&logoColor=white)](#)
+### 🎓 Professional Certifications
 
-[![Linux Fundamentals](https://img.shields.io/badge/Linux-Fundamentals%20Grade%20A-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
+![Google](https://img.shields.io/badge/Google-Cybersecurity%20Professional%20Certificate-4285F4?style=for-the-badge\&logo=google\&logoColor=white)
+![IBM](https://img.shields.io/badge/IBM-Cybersecurity%20Fundamentals-052FAD?style=for-the-badge\&logo=ibm\&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-Introduction%20to%20Cybersecurity-1BA0D7?style=for-the-badge\&logo=cisco\&logoColor=white)
+![HP](https://img.shields.io/badge/HP-Cybersecurity%20Awareness-0096D6?style=for-the-badge\&logo=hp\&logoColor=white)
 
-[![Threat Intelligence](https://img.shields.io/badge/Threat%20Intel-Cyber%20Threat%20Intelligence%20101-4B0082?style=for-the-badge&logo=securityscorecard&logoColor=white)](#)
+### 🛡️ Security & Linux
 
-[![Network Analysis](https://img.shields.io/badge/Security%20Blue%20Team-Network%20Analysis-0A66C2?style=for-the-badge&logo=wireshark&logoColor=white)](#)
-
----
-
-### 🏢 Internships (AICTE, Microsoft, SAP, IBM)
-
-[![AICTE Cyber Security](https://img.shields.io/badge/AICTE-Cyber%20Security%20Internship-green?style=for-the-badge&logo=government&logoColor=white)](#)
-
-[![TechSaksham AI](https://img.shields.io/badge/Microsoft%20%26%20SAP-TechSaksham%20AI%20Internship-737373?style=for-the-badge&logo=microsoft&logoColor=white)](#)
-
----
+![Linux](https://img.shields.io/badge/Linux-Fundamentals%20Grade%20A-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![Threat Intel](https://img.shields.io/badge/Threat%20Intelligence-arcX%20101-4B0082?style=for-the-badge)
+![Network Analysis](https://img.shields.io/badge/Network%20Analysis-Security%20Blue%20Team-0A66C2?style=for-the-badge)
 
 ### 🧠 Virtual Job Simulations (Forage)
 
-[![Forage IAM](https://img.shields.io/badge/Forage-IAM%20Job%20Simulation-orange?style=for-the-badge&logo=protonvpn&logoColor=white)](#)
+![Forage](https://img.shields.io/badge/Forage-Cybersecurity%20Job%20Simulations-orange?style=for-the-badge)
+![Cloud](https://img.shields.io/badge/Cloud%20Platform-Job%20Simulation-0DB7ED?style=for-the-badge)
 
-[![Forage Cybersecurity](https://img.shields.io/badge/Forage-Cybersecurity%20Job%20Simulations-red?style=for-the-badge&logo=datadog&logoColor=white)](#)
+---
 
-[![Forage Cloud](https://img.shields.io/badge/Forage-Cloud%20Platform%20Simulation-0DB7ED?style=for-the-badge&logo=amazonaws&logoColor=white)](#)
+## 💼 Experience
 
-[![Forage Data Privacy](https://img.shields.io/badge/Forage-Global%20Cyber%20%26%20Data%20Privacy-purple?style=for-the-badge&logo=law&logoColor=white)](#)
+### 🧑‍💻 Cybersecurity & Ethical Hacking Intern — **Edureka**
 
-### Programming:
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+📅 **Feb 2024 – Jun 2024**
 
-### Cybersecurity Tools:
-![Metasploit](https://img.shields.io/badge/Metasploit-555?style=flat-square&logo=metasploit&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-00A300?style=flat-square&logo=nmap&logoColor=white)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A4?style=flat-square&logo=wireshark&logoColor=white)
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-8E1B1B?style=flat-square&logo=burp-suite&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C8B?style=flat-square&logo=kali-linux&logoColor=white)
-![Maltego](https://img.shields.io/badge/Maltego-000000?style=flat-square&logo=maltego&logoColor=white)
-![Shodan](https://img.shields.io/badge/Shodan-FF0000?style=flat-square&logo=shodan&logoColor=white)
-![SQLMap](https://img.shields.io/badge/SQLMap-yellow?style=flat-square&logo=sqlite&logoColor=white)
-![Acunetix](https://img.shields.io/badge/Acunetix-red?style=flat-square&logo=acunetix&logoColor=white)
-![MSFVenom](https://img.shields.io/badge/MSFVenom-555?style=flat-square&logo=metasploit&logoColor=white)
+✔ Performed **penetration testing** on web apps → discovered **12+ vulnerabilities** (SQLi, XSS).
+✔ Conducted **vulnerability assessments** improving security posture by **~40%**.
+✔ Mapped attack surfaces using **Nmap & Shodan**.
+✔ Hardened **Linux systems** (SSH, password policies).
+✔ Performed **OSINT investigations** for exposed credentials & assets.
 
-### Networking & Security:
-![Network Traffic Analysis](https://img.shields.io/badge/Network_Traffic_Analysis-4CAF50?style=flat-square&logo=router&logoColor=white)
-![Cryptography](https://img.shields.io/badge/Cryptography-9C27B0?style=flat-square&logo=key&logoColor=white)
-![Network Scanning](https://img.shields.io/badge/Network_Scanning-FF5733?style=flat-square&logo=radar&logoColor=white)
-![Application Security](https://img.shields.io/badge/Application_Security-FF5733?style=flat-square&logo=ubuntu&logoColor=white)
-![GRC](https://img.shields.io/badge/GRC-9C27B0?style=flat-square&logo=google&logoColor=white)
-![Web Security Testing](https://img.shields.io/badge/Web_Security_Testing-4CAF50?style=flat-square&logo=git&logoColor=white)
-![VAPT](https://img.shields.io/badge/VAPT-FF9800?style=flat-square&logo=gitlab&logoColor=white)
-![TCP/IP](https://img.shields.io/badge/TCP/IP-2196F3?style=flat-square&logo=googlechrome&logoColor=white)
-![IDS/IPS](https://img.shields.io/badge/IDS/IPS-00BCD4?style=flat-square&logo=windows&logoColor=white)
-![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-000000?style=flat-square&logo=hackthebox&logoColor=white)
-![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-ff0000?style=flat-square&logo=kali-linux&logoColor=white)
-![Vulnerability Assessment](https://img.shields.io/badge/Vulnerability_Assessment-blue?style=flat-square&logo=nessus&logoColor=white)
-![Network Security](https://img.shields.io/badge/Network_Security-green?style=flat-square&logo=cisco&logoColor=white)
-![Reconnaissance](https://img.shields.io/badge/Reconnaissance-purple?style=flat-square&logo=shodan&logoColor=white)
-![Web Application Security](https://img.shields.io/badge/Web_Application_Security-orange?style=flat-square&logo=burp-suite&logoColor=white)
-![OSINT](https://img.shields.io/badge/OSINT-ff5733?style=flat-square&logo=osint&logoColor=white)
-![Threat Intelligence](https://img.shields.io/badge/Threat_Intelligence-008000?style=flat-square&logo=threat-intelligence&logoColor=white)
-![Cryptography](https://img.shields.io/badge/Cryptography-800080?style=flat-square&logo=gnupg&logoColor=white)
-![Secure Authentication](https://img.shields.io/badge/Secure_Authentication-0055ff?style=flat-square&logo=auth0&logoColor=white)
-![Linux Security](https://img.shields.io/badge/Linux_Security-fcc624?style=flat-square&logo=linux&logoColor=black)
-![System Hardening](https://img.shields.io/badge/System_Hardening-darkred?style=flat-square&logo=ubuntu&logoColor=white)
-![Exploitation and Attack Simulation](https://img.shields.io/badge/Exploitation_&_Attack_Simulation-darkgreen?style=flat-square&logo=metasploit&logoColor=white)
-![Security Monitoring](https://img.shields.io/badge/Security_Monitoring-0055ff?style=flat-square&logo=splunk&logoColor=white)
-![Incident Response](https://img.shields.io/badge/Incident_Response-ff7700?style=flat-square&logo=thealgorithms&logoColor=white)
-![Capture the Flag (CTF)](https://img.shields.io/badge/CTF-9932CC?style=flat-square&logo=ctftime&logoColor=white)
-![Practical Hacking](https://img.shields.io/badge/Practical_Hacking-222222?style=flat-square&logo=hackerrank&logoColor=white)
+---
 
-### Technology:
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Windows](https://img.shields.io/badge/Windows-0078D4?style=flat-square&logo=windows&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF8C00?style=flat-square&logo=google-cloud&logoColor=white)
-![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-FF5733?style=flat-square&logo=python&logoColor=white)
+## 🛠️ Tech Stack & Skills
 
+### 💻 Programming
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=for-the-badge)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge\&logo=powershell\&logoColor=white)
+
+---
+
+### 🔐 Cybersecurity & Networking
+
+![CCNA](https://img.shields.io/badge/CCNA-Cisco-blue?style=for-the-badge\&logo=cisco\&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-SIEM-black?style=for-the-badge\&logo=splunk\&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-Identity%20%26%20Access%20Management-orange?style=for-the-badge)
+![SOC](https://img.shields.io/badge/SOC-Security%20Operations%20Center-red?style=for-the-badge)
+
+---
+
+### 🐧 Linux & System Administration
+
+![RHCSA](https://img.shields.io/badge/RHCSA-Red%20Hat-critical?style=for-the-badge\&logo=redhat\&logoColor=white)
+![RHCE](https://img.shields.io/badge/RHCE-Red%20Hat-darkred?style=for-the-badge\&logo=redhat\&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-System%20Security-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
+![Shell](https://img.shields.io/badge/Shell%20Scripting-black?style=for-the-badge)
+
+---
+
+### 🪟 Windows & Enterprise
+
+![MCSA](https://img.shields.io/badge/MCSA-Microsoft-blue?style=for-the-badge\&logo=microsoft\&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-Server%20Administration-0078D6?style=for-the-badge\&logo=windows\&logoColor=white)
+
+---
+
+### 🧪 Security Tools
+
+![Kali](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge\&logo=kalilinux\&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-blue?style=for-the-badge)
+![Burp](https://img.shields.io/badge/Burp%20Suite-orange?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge\&logo=wireshark\&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-darkgreen?style=for-the-badge)
+
+---
+
+### ☁️ Platforms & Technologies
+
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge\&logo=github)
+![AI](https://img.shields.io/badge/AI%20%26%20ML-purple?style=for-the-badge)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
+
+
+---
+
+## 🤝 Let’s Connect
+
+💼 Open to **SOC Analyst | Cybersecurity Analyst | Pentester | Blue Team roles**
+🧠 Always learning, always hacking, always defending.
+
+⭐ **If you like my work, consider starring my repositories!**
 
 ---
 
