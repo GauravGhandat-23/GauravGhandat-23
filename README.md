@@ -30,6 +30,53 @@
 
 <div align="center">
 
+---
+
+## 🏆 Certifications & Internships
+
+### 🎓 Professional & Core Certifications
+
+
+[![Google Cybersecurity](https://img.shields.io/badge/Google-Cybersecurity%20Professional%20Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/verify/professional-cert/KCKP7UKVMWL9)
+
+[![IBM Cybersecurity Fundamentals](https://img.shields.io/badge/IBM-Cybersecurity%20Fundamentals-052FAD?style=for-the-badge&logo=ibm&logoColor=white)](https://www.credly.com/badges/9cf448f1-9def-446e-82f5-2a59e42fe2e6)
+
+[![Cisco Cybersecurity](https://img.shields.io/badge/Cisco-Introduction%20to%20Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)](#)
+
+[![HP Cybersecurity Awareness](https://img.shields.io/badge/HP-Intro%20to%20Cybersecurity%20Awareness-0096D6?style=for-the-badge&logo=hp&logoColor=white)](#)
+
+---
+
+### 🛡️ Ethical Hacking, Linux & Threat Intelligence
+
+[![Edureka Cyber Security](https://img.shields.io/badge/Edureka-Cyber%20Security%20%26%20Ethical%20Hacking-blue?style=for-the-badge&logo=hackaday&logoColor=white)](#)
+
+[![Linux Fundamentals](https://img.shields.io/badge/Linux-Fundamentals%20Grade%20A-FCC624?style=for-the-badge&logo=linux&logoColor=black)](#)
+
+[![Threat Intelligence](https://img.shields.io/badge/Threat%20Intel-Cyber%20Threat%20Intelligence%20101-4B0082?style=for-the-badge&logo=securityscorecard&logoColor=white)](#)
+
+[![Network Analysis](https://img.shields.io/badge/Security%20Blue%20Team-Network%20Analysis-0A66C2?style=for-the-badge&logo=wireshark&logoColor=white)](#)
+
+---
+
+### 🏢 Internships (AICTE, Microsoft, SAP, IBM)
+
+[![AICTE Cyber Security](https://img.shields.io/badge/AICTE-Cyber%20Security%20Internship-green?style=for-the-badge&logo=government&logoColor=white)](#)
+
+[![TechSaksham AI](https://img.shields.io/badge/Microsoft%20%26%20SAP-TechSaksham%20AI%20Internship-737373?style=for-the-badge&logo=microsoft&logoColor=white)](#)
+
+---
+
+### 🧠 Virtual Job Simulations (Forage)
+
+[![Forage IAM](https://img.shields.io/badge/Forage-IAM%20Job%20Simulation-orange?style=for-the-badge&logo=protonvpn&logoColor=white)](#)
+
+[![Forage Cybersecurity](https://img.shields.io/badge/Forage-Cybersecurity%20Job%20Simulations-red?style=for-the-badge&logo=datadog&logoColor=white)](#)
+
+[![Forage Cloud](https://img.shields.io/badge/Forage-Cloud%20Platform%20Simulation-0DB7ED?style=for-the-badge&logo=amazonaws&logoColor=white)](#)
+
+[![Forage Data Privacy](https://img.shields.io/badge/Forage-Global%20Cyber%20%26%20Data%20Privacy-purple?style=for-the-badge&logo=law&logoColor=white)](#)
+
 ### Programming:
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
@@ -82,9 +129,6 @@
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF8C00?style=flat-square&logo=google-cloud&logoColor=white)
 ![Artificial Intelligence](https://img.shields.io/badge/Artificial_Intelligence-FF5733?style=flat-square&logo=python&logoColor=white)
 
-### 🏆 Certifications
-
-[![Google Cybersecurity Certificate](https://img.shields.io/badge/Google-Cybersecurity%20Professional%20Certificate-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://coursera.org/verify/professional-cert/KCKP7UKVMWL9)
 
 ---
 
