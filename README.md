@@ -122,6 +122,95 @@
 ![AI](https://img.shields.io/badge/AI%20%26%20ML-purple?style=for-the-badge)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge\&logo=streamlit\&logoColor=white)
 
+---
+
+## 📊 Skill Level Overview
+
+> **Legend:** ▰ = Proficient | ▱ = Learning / Intermediate
+
+---
+
+### 🛡️ Cybersecurity & SOC
+
+**Penetration Testing**
+▰▰▰▰▱▱▱▱▱▱
+
+**SOC Operations & Incident Response**
+▰▰▰▰▰▱▱▱▱▱
+
+**SIEM (Splunk)**
+▰▰▰▰▱▱▱▱▱▱
+
+**Vulnerability Assessment**
+▰▰▰▰▰▱▱▱▱▱
+
+**Threat Intelligence & OSINT**
+▰▰▰▰▱▱▱▱▱▱
+
+---
+
+### 🌐 Networking & IAM
+
+**CCNA (Networking Fundamentals)**
+▰▰▰▰▰▱▱▱▱▱
+
+**Identity & Access Management (IAM)**
+▰▰▰▰▰▱▱▱▱▱
+
+**Network Traffic Analysis (Wireshark, PCAP)**
+▰▰▰▰▱▱▱▱▱▱
+
+---
+
+### 🐧 Linux & System Administration
+
+**Linux Security & Hardening**
+▰▰▰▰▰▱▱▱▱▱
+
+**RHCSA (Linux Administration)**
+▰▰▰▰▱▱▱▱▱▱
+
+**RHCE (Automation & Enterprise Linux)**
+▰▰▰▱▱▱▱▱▱▱
+
+**Shell Scripting**
+▰▰▰▰▱▱▱▱▱▱
+
+---
+
+### 🪟 Windows & Enterprise
+
+**MCSA (Windows Server Administration)**
+▰▰▰▰▱▱▱▱▱▱
+
+**Active Directory & GPO**
+▰▰▰▱▱▱▱▱▱▱
+
+---
+
+### 💻 Programming & Automation
+
+**Python (Security Automation)**
+▰▰▰▰▰▱▱▱▱▱
+
+**SQL (Security & Analysis)**
+▰▰▰▰▱▱▱▱▱▱
+
+**PowerShell**
+▰▰▰▱▱▱▱▱▱▱
+
+---
+
+### ☁️ Platforms & Tools
+
+**Git & GitHub**
+▰▰▰▰▰▱▱▱▱▱
+
+**Kali Linux Tooling**
+▰▰▰▰▰▱▱▱▱▱
+
+**Burp Suite / Metasploit / Nmap**
+▰▰▰▰▱▱▱▱▱▱
 
 ---
 
