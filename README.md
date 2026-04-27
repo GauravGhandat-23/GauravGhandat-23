@@ -1,6 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=13A6F7&background=9468FF00&width=500&lines=Welcome+to+My+Profile+%F0%9F%91%8B;I'm+a+Cyber-Security+Enthusiast+%F0%9F%92%BB;Let's+Build+Something+Awesome+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-![github-header-image](https://github.com/user-attachments/assets/d8a1f079-4526-428d-b0c7-1717b3025f36)
+<img width="1983" height="793" alt="ChatGPT Image Apr 27, 2026, 05_24_30 PM" src="https://github.com/user-attachments/assets/94690175-f7ae-432f-8929-44a8d43820b0" />
 
 <p align="center"> 
   <a href="https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/"><img height="25" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"></a>&nbsp;&nbsp;
