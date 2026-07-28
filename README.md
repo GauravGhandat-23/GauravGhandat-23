@@ -174,21 +174,6 @@ FastAPI + Streamlit CTF platform with JWT auth, a 3-tier Groq-powered AI hint en
 
 ---
 
-## 📊 TELEMETRY
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=gauravghandat&show_icons=true&theme=react&bg_color=0d1117&title_color=00ff9c&icon_color=00ff9c&text_color=c9d1d9&border_color=00ff9c&hide_border=false" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gauravghandat&layout=compact&theme=react&bg_color=0d1117&title_color=00ff9c&text_color=c9d1d9&border_color=00ff9c&hide_border=false" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gauravghandat&theme=react&background=0d1117&stroke=00ff9c&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c&border=00ff9c" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=gauravghandat&theme=react-dark&bg_color=0d1117&color=00ff9c&line=00ff9c&point=ffffff&hide_border=true" width="95%"/>
-
-</div>
-
----
-
 ## 🎓 CERTIFICATIONS & TRAINING
 
 <div align="center">
@@ -227,7 +212,7 @@ timeline
 
 ### 📡 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/-Gaurav%20Ghandat-00ff9c?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0d1117)](https://www.linkedin.com/in/gauravghandat-68a5a22b4)
+[![LinkedIn](https://img.shields.io/badge/-Gaurav%20Ghandat-00ff9c?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0d1117)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/)
 [![Gmail](https://img.shields.io/badge/-gauravghandat12%40gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0d1117)](mailto:gauravghandat12@gmail.com)
 
 <br/>
