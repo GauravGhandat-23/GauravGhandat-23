@@ -1,224 +1,113 @@
-<div align="center">
-
-<!-- Terminal-style animated header -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=00FF9C&center=true&vCenter=true&width=900&lines=whoami+%3E+Gaurav+Ghandat;role+%3D+%22SOC+Analyst+%7C+Blue+Team%22;status+%3D+%22MONITORING...%22;tail+-f+%2Fvar%2Flog%2Fthreats.log" alt="Typing SVG" />
-
-</div>
+<h1 align="center">Hi 👋, I'm Gaurav Uttam Ghandat</h1>
+<h3 align="center">SOC Analyst | Splunk SIEM | Blue Team | Windows Server | Active Directory | Linux Administration</h3>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:00ff9c&height=200&section=header&text=SOC%20ANALYST%20%7C%20BLUE%20TEAM&fontSize=36&fontColor=00FF9C&animation=fadeIn&fontAlignY=38&desc=Threat%20Detection%20%7C%20Incident%20Response%20%7C%20SIEM&descAlignY=58&descSize=18&descColor=8b949e" />
+  <img src="https://img.shields.io/badge/Focus-Security%20Monitoring-blue" alt="Focus"/>
+  <img src="https://img.shields.io/badge/SIEM-Splunk%20Enterprise-orange" alt="Splunk"/>
+  <img src="https://img.shields.io/badge/Location-Nashik%2C%20India-green" alt="Location"/>
 </p>
 
-<div align="center">
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=gauravghandat&label=INTRUSION%20ATTEMPTS%20(Profile%20Views)&color=00ff9c&style=for-the-badge&labelColor=0d1117)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-00ff9c?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0d1117)](https://www.linkedin.com/in/gauravghandat-68a5a22b4)
-[![Email](https://img.shields.io/badge/Email-Contact-00ff9c?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0d1117)](mailto:gauravghandat12@gmail.com)
-[![Location](https://img.shields.io/badge/Location-Nashik%2C%20India-00ff9c?style=for-the-badge&logo=googlemaps&logoColor=black&labelColor=0d1117)](#)
+### 🔎 About Me
 
-</div>
+- 🛡️ SOC Analyst & System Administrator with hands-on experience in **Security Monitoring, SIEM, Threat Detection, and Incident Response**
+- 💼 Currently working as **System Administrator** at **Bits & Bytes Services Pvt. Ltd**, Nashik, India
+- 🧠 Strong understanding of **MITRE ATT&CK**, **OWASP Top 10**, **Cyber Kill Chain**, and **Blue Team operations**
+- 🖥️ Experienced in administering **Windows Server, Active Directory, Linux, and enterprise networks**
+- 🚀 Passionate about strengthening enterprise security through proactive monitoring, automation, and incident response
+- 🎓 B.E. in Computer Engineering, Brahma Valley College of Engineering, Nashik (2022 – 2025)
 
 ---
 
-<table align="center">
-<tr>
-<td width="60%" valign="top">
+### 🛠️ Technical Skills
 
-### 📟 SYSTEM LOG — `whoami`
+**SIEM & Security Monitoring**
+`Splunk Enterprise` `SPL Queries` `Dashboards` `Alerting` `Event Correlation` `Log Analysis`
 
-```yaml
-name:        Gaurav Ghandat
-role:        SOC Analyst | System Administrator
-location:    Nashik, Maharashtra, India
-current_org: Bits and Bytes Services
-clearance:   Blue Team | Threat Hunter
-mission:     >
-  Analyzing security events, correlating logs, and
-  hunting adversaries across enterprise environments —
-  one alert at a time.
-focus:
-  - Security Monitoring & SIEM (Splunk)
-  - Threat Detection & Incident Response
-  - Active Directory & Windows Server Hardening
-  - Linux Administration & Network Security
-seeking:     [SOC Analyst L1, Security Ops Analyst, Blue Team Analyst]
-status:      🟢 ACTIVELY MONITORING
-```
+**SOC Operations**
+`Alert Triage` `Incident Response` `Threat Detection` `IOC Analysis` `Security Monitoring` `MITRE ATT&CK`
 
-</td>
-<td width="40%" valign="top">
+**Windows Administration**
+`Windows Server 2012/2016/2019/2022/2025` `Active Directory` `Group Policy` `DNS` `DHCP` `Hyper-V` `PDC/CDC/RODC`
 
-### 🛰️ THREAT DASHBOARD
+**Linux Administration**
+`Ubuntu` `RHEL` `Rocky Linux` `Shell Scripting` `SSH` `System Hardening` `Kali Linux` `YUM Server`
 
-```
-┌──────────────────────────────┐
-│  ALERT FEED                  │
-├──────────────────────────────┤
-│  [INFO]  System hardened     │
-│  [INFO]  IOC extracted       │
-│  [WARN]  Anomaly detected    │
-│  [OK]    Incident contained  │
-│  [OK]    Playbook executed   │
-│  [INFO]  MITRE ATT&CK mapped │
-└──────────────────────────────┘
-   Uptime: 100% Vigilance
-```
+**Networking**
+`TCP/IP` `VPN` `LAN/WAN` `Routing` `Firewall` `Wi-Fi Troubleshooting`
 
-</td>
-</tr>
-</table>
+**Security Tools**
+`Splunk` `Wireshark` `Burp Suite` `Metasploit` `Nmap`
+
+**Programming**
+`Python` `PowerShell` `SQL` `Bash`
+
+**Concepts**
+`OWASP Top 10` `ITIL` `Cyber Kill Chain` `Incident Response` `Vulnerability Assessment`
 
 ---
 
-## 🧠 CORE ARSENAL
+### 💼 Professional Experience
 
-<div align="center">
-
-**Security Operations**
-
-![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=00ff9c)
-![SIEM](https://img.shields.io/badge/SIEM-0d1117?style=for-the-badge&logo=data:image/svg+xml;base64,&logoColor=00ff9c&labelColor=0d1117)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-b31b1b?style=for-the-badge&logoColor=white)
-![OWASP](https://img.shields.io/badge/OWASP%20Top%2010-000000?style=for-the-badge&logo=owasp&logoColor=00ff9c)
-![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-
-**Infrastructure & Systems**
-
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0078D6?style=for-the-badge&logo=microsoft&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Red Hat](https://img.shields.io/badge/Red%20Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
-
-**Cloud & DevOps**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-**Development & AI Tooling**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq%20API-F55036?style=for-the-badge&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-</div>
+**System Administrator** — Bits & Bytes Services Pvt. Ltd | *06/2025 – Present | Nashik, India*
+- Managed Windows Server and Linux infrastructure for enterprise clients
+- Administered Active Directory, Group Policy, DNS, DHCP, and user access
+- Delivered SLA-driven L1/L2 technical support and infrastructure troubleshooting
+- Monitored LAN/WAN, VPN, and enterprise networks
+- Implemented system hardening, patch management, backup, and access control
+- Supported server deployment, virtualization, storage, and data center operations
+- Followed ITIL-based incident management procedures to resolve technical issues efficiently
 
 ---
 
-## 🎯 MISSION LOG — Featured Builds
+### 📌 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+#### 🔹 Enterprise Log Analysis & Threat Detection using Splunk
+*Tools: Splunk Enterprise, Zeek, Linux SSH Logs, Apache Logs, AWS GuardDuty*
+- Centralized DNS, HTTP, SSH, Apache, and cloud logs
+- Developed SPL queries to detect brute-force attacks, DNS tunneling, malware beaconing, and web exploitation
+- Built real-time alert rules for incident response
+- Correlated multi-source logs to identify advanced attack patterns
+- Improved SOC visibility through centralized log monitoring
 
-### 🕵️ AI Security Operations Center Assistant (AI‑SOCA)
-Full-stack SOC platform combining Streamlit + Groq LLM with log parsing, **IOC extraction**, **MITRE ATT&CK mapping**, NIST SP 800‑61 playbook generation, RBAC + bcrypt auth, and automated PDF incident reporting.
-
-`Python` `Streamlit` `Groq API` `SQLite` `MITRE ATT&CK`
-
-</td>
-<td width="50%" valign="top">
-
-### 🎣 AI Phishing & Fraud Detection System
-Dark SOC-console styled ML platform for phishing/fraud triage — fraud risk scoring engine, bulk CSV scanning, and full scan-history tracking built on scikit-learn.
-
-`Python` `Streamlit` `scikit-learn` `ML`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌐 VPN & Proxy Detection Platform
-Flask + SQLAlchemy defensive tool that geolocates and heuristically classifies IPs (TOR/VPN/PROXY/HOSTING/RESIDENTIAL) with a REST API, risk scoring, RBAC, and multi-format export (CSV/Excel/PDF).
-
-`Flask` `SQLAlchemy` `REST API` `Risk Scoring`
-
-</td>
-<td width="50%" valign="top">
-
-### 📡 Network Monitoring System (NMS)
-Production backend polling 200+ devices via **ICMP · SNMPv2c · WMI · SSH**, feeding a live NOC dashboard in Power BI — deployed against a real network in Nashik.
-
-`pysnmp` `psutil` `Power BI` `NOC`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔬 AI Vulnerability Scanner
-Production-grade scanner combining Streamlit and Groq LLM for automated vulnerability analysis and reporting.
-
-`Python` `Streamlit` `Groq API`
-
-</td>
-<td width="50%" valign="top">
-
-### 🏴 NITS CyberGyan — CTF Platform
-FastAPI + Streamlit CTF platform with JWT auth, a 3-tier Groq-powered AI hint engine, gamified badges/leaderboard, and 8 challenge categories.
-
-`FastAPI` `JWT` `Groq API` `Gamification`
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-*More recon in progress: SIEM + GNN-based threat detection · Quantum-resistant cryptography · Digital Forensics*
-
-</div>
+#### 🔹 SOC Monitoring Dashboard using Splunk
+*Tools: Splunk Enterprise, SPL*
+- Designed enterprise SOC dashboards
+- Visualized authentication anomalies, attack trends, firewall events, and web traffic
+- Built dashboards for brute-force detection and security monitoring
+- Improved analyst visibility through actionable security insights
 
 ---
 
-## 🎓 CERTIFICATIONS & TRAINING
+### 📜 Certifications
 
-<div align="center">
-
-| 🏅 Credential | 
-|---|
-| Oracle Cloud Infrastructure 2025 Certified Architect Associate |
-| AIG's Shields Up: Cybersecurity Job Simulation |
-| Threats to Websites |
-| AWS APAC Solutions Architecture |
-| CCNA · MCSA · RHCE · RHCSA |
-| Microsoft — Intro to Computers, OS & Security |
-
-</div>
+- Certified Red Team Analyst (CRTA)
+- Oracle Cloud Infrastructure 2025 Certified Architect Associate
+- Google Professional Cybersecurity Certificate
+- Cisco Introduction to Cybersecurity
+- Security Blue Team – Network Analysis
+- arcX Threat Intelligence Analyst
+- Reliance Foundation Cyber Security Associate
+- Netleap IT Training and Solutions Pvt Ltd — CCNA, MCSA, RHCSA, RHCE, Cyber Security, PEH, EH
+- Tech Mahindra Cyber Security Program
+- Edureka Linux Fundamentals
 
 ---
 
-## 🗺️ CAREER PATH
+### 🎓 Education
 
-```mermaid
-timeline
-    title Incident Response Timeline — Career Edition
-    2021 : Started B.E. Computer Engineering @ SPPU
-    2024 : Cybersecurity & Ethical Hacking Internship (Edureka)
-         : Cybersecurity Internship (TopperRank) — XSS · SQLi · CSRF
-    2025 : B.E. Computer Engineering, SPPU
-         : AI Transformative Learning (TechSaksham) & Edunet Foundation
-         : System Administrator @ Bits and Bytes Services
-    2026 : Building AI + Cybersecurity tooling
-         : Targeting SOC Analyst / Security Engineer roles
-```
+**Bachelor of Engineering (B.E.) – Computer Engineering**
+Brahma Valley College of Engineering, Nashik | 06/2022 – 05/2025 | CGPA: 7.66/10
 
 ---
 
-<div align="center">
+### 📫 Connect with Me
 
-### 📡 Let's Connect
+<p align="left">
+  <a href="mailto:gauravghandat23@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/gaurav-ghandat-68a5a22b4"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://github.com/GauravGhandat-23"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/-Gaurav%20Ghandat-00ff9c?style=for-the-badge&logo=linkedin&logoColor=black&labelColor=0d1117)](https://www.linkedin.com/in/gaurav-ghandat-68a5a22b4/)
-[![Gmail](https://img.shields.io/badge/-gauravghandat12%40gmail.com-00ff9c?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0d1117)](mailto:gauravghandat12@gmail.com)
-
-<br/>
-
-`"In God we trust. All others, we monitor." — SOC Motto`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff9c,100:0d1117&height=100&section=footer" />
-
-</div>
+<p align="center"><i>🔐 "Securing systems, one log at a time."</i></p>
