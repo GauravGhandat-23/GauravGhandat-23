@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./hero.svg" width="100%" alt="Animated Gaurav Ghandat hero"/>
+<img src="./hero.svg?v=3" width="100%" alt="Animated Gaurav Ghandat hero"/>
 
 <br/>
 
@@ -15,13 +15,13 @@
 
 ## 🖥️ whoami
 
-<img src="./about-life.svg" width="100%" alt="Animated about section"/>
+<img src="./about-life.svg?v=3" width="100%" alt="Animated about section"/>
 
 ---
 
 ## 🧰 Tech Arsenal
 
-<img src="./stack.svg" width="100%" alt="Animated technology stack"/>
+<img src="./stack.svg?v=3" width="100%" alt="Animated technology stack"/>
 
 ---
 
@@ -169,7 +169,7 @@ Since **06/2025** · Windows Server & Linux infrastructure · Active Directory �
 
 ## 🪪 Live SOC Dashboard
 
-<img src="./id-dashboard.svg" width="100%" alt="Animated SOC dashboard"/>
+<img src="./id-dashboard.svg?v=3" width="100%" alt="Animated SOC dashboard"/>
 
 ---
 
@@ -177,9 +177,9 @@ Since **06/2025** · Windows Server & Linux infrastructure · Active Directory �
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg"/>
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake-dark.svg?v=3"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg?v=3"/>
+  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg?v=3"/>
 </picture>
 </div>
 
@@ -187,7 +187,7 @@ Since **06/2025** · Windows Server & Linux infrastructure · Active Directory �
 
 ## 📫 Connect
 
-<img src="./connect.svg" width="100%" alt="Animated connect section"/>
+<img src="./connect.svg?v=3" width="100%" alt="Animated connect section"/>
 
 <br/>
 
