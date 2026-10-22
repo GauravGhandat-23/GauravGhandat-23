@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <title>About Gaurav</title>
+  <defs>
+    <linearGradient id="aurora" x1="0" x2="1">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#151827"/><stop offset="1" stop-color="#0d0e16"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".08"/></pattern>
+    <style>
+      .bg{fill:#0d0e16} .card{fill:url(#glass);stroke:url(#aurora);stroke-opacity:.55}
+      .t{fill:#f8fafc;font-family:Inter,Arial,sans-serif} .m{fill:#cbd5e1;font-family:'JetBrains Mono',Consolas,monospace}
+      .cyan{fill:#22d3ee} .muted{fill:#94a3b8}
+    </style>
+  </defs>
+  <rect width="1200" height="520" class="bg"/>
+  <rect width="1200" height="520" fill="url(#dots)"/>
+  
+<rect x="30" y="30" width="550" height="460" rx="30" class="card"/>
+<rect x="70" y="75" width="470" height="260" rx="18" fill="#070a12" stroke="#334155"/>
+<rect x="70" y="75" width="470" height="42" rx="18" fill="#111827"/>
+<circle cx="95" cy="96" r="6" fill="#f472b6"/><circle cx="115" cy="96" r="6" fill="#a78bfa"/><circle cx="135" cy="96" r="6" fill="#22d3ee"/>
+<text x="92" y="155" class="m" font-size="16" fill="#22d3ee">gaurav@soc-nashik:~$</text>
+<text x="92" y="190" class="m" font-size="16">whoami</text>
+<text x="92" y="220" class="m" font-size="16" fill="#f8fafc">SOC Analyst | System Administrator</text>
+<text x="92" y="250" class="m" font-size="16" fill="#f8fafc">Blue Teamer</text>
+<text x="92" y="290" class="m" font-size="16" fill="#94a3b8">turning noisy logs into detections.</text>
+<g class="m" font-size="15">
+<text x="80" y="380" fill="#22d3ee">● Splunk / SPL / Alerting</text>
+<text x="80" y="410" fill="#a78bfa">● Windows / AD / GPO / DNS</text>
+<text x="80" y="440" fill="#f472b6">● Linux / Python / PowerShell</text>
+</g>
+
+<rect x="620" y="30" width="550" height="460" rx="30" class="card"/>
+<text x="665" y="80" class="t" font-size="28" font-weight="700">⚡ Mission Loop</text>
+<g transform="translate(665 120)">
+  <rect width="440" height="62" rx="16" fill="#111827"/>
+  <text x="25" y="39" class="m" font-size="19">01  COLLECT</text>
+  <animateTransform attributeName="transform" type="translate" values="665 120;665 126;665 120" dur="3s" repeatCount="indefinite"/>
+</g>
+<g transform="translate(665 205)">
+  <rect width="440" height="62" rx="16" fill="#111827"/>
+  <text x="25" y="39" class="m" font-size="19">02  CORRELATE</text>
+</g>
+<g transform="translate(665 290)">
+  <rect width="440" height="62" rx="16" fill="#111827"/>
+  <text x="25" y="39" class="m" font-size="19">03  RESPOND</text>
+</g>
+<g transform="translate(665 375)">
+  <rect width="440" height="62" rx="16" fill="#111827"/>
+  <text x="25" y="39" class="m" font-size="19">04  TUNE → REPEAT</text>
+</g>
+
+</svg>
