@@ -204,7 +204,7 @@ RESPONSE    ◀──  INVESTIGATION  ◀──  ALERT TRIAGE  ◀──  DETECT
 
 ## 🪪 Security ID Card
 
-<img src="./assets/gaurav-lanyard.svg?v=21" alt="Gaurav Ghandat — Swinging SOC Defender ID Badge" width="380"/>
+<img src="./assets/id-dashboard.svg?v=21" alt="Gaurav Ghandat — Verified SOC Defender ID &amp; Telemetry Dashboard" width="100%"/>
 
 <br/><br/>
 
