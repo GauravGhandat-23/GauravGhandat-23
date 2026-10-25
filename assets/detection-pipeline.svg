@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 230" width="1280" height="230" role="img" aria-label="SOC Detection and Incident Response Pipeline">
+<title>SOC Detection &amp; Incident Response Pipeline</title>
+<desc>End-to-end incident pipeline from raw log sources to normalized correlation, threat alert, investigation, and automated containment response.</desc>
+<defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.sg{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.sgm{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:500}
+.jb{font-family:'JetBrains Mono',Consolas,monospace}
+.jbb{font-family:'JetBrains Mono',Consolas,monospace;font-weight:700}
+@keyframes pulseLine{0%{stroke-dashoffset:40}100%{stroke-dashoffset:0}}
+.flow-line{stroke-dasharray:6 4;animation:pulseLine 2s linear infinite}
+</style>
+<pattern id="dotP2" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".7" fill="#fff" fill-opacity=".04"/></pattern>
+</defs>
+
+<!-- Outer Shell -->
+<rect width="1280" height="230" rx="16" fill="#0d1117"/>
+<rect width="1280" height="230" rx="16" fill="url(#dotP2)"/>
+<rect x=".75" y=".75" width="1278.5" height="228.5" rx="15.25" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- Title -->
+<text class="jbb" x="32" y="38" font-size="11.5" fill="#58a6ff" letter-spacing="1.8">// INCIDENT PIPELINE</text>
+<text class="sg" x="32" y="66" font-size="20" fill="#f0f6fc">SOC Detection &amp; Response Architecture</text>
+<text class="sgm" x="480" y="65" font-size="12" fill="#8b949e">Automated telemetry collection, normalization, correlation, and response</text>
+
+<!-- Flow Steps (9 Steps) -->
+<!-- Width: 114 each, spacing: 18 -->
+
+<g transform="translate(32, 94)">
+
+  <!-- 1. LOG SOURCE -->
+  <g transform="translate(0, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#22d3ee"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">💻</text>
+    <text class="jbb" x="56" y="58" font-size="10.5" fill="#f0f6fc" text-anchor="middle">LOG SOURCE</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Win / Linux / Net</text>
+  </g>
+
+  <!-- Arrow 1-2 -->
+  <line class="flow-line" x1="112" y1="48" x2="136" y2="48" stroke="#58a6ff" stroke-width="2"/>
+  <polygon points="138,48 132,44 132,52" fill="#58a6ff"/>
+
+  <!-- 2. LOG COLLECTION -->
+  <g transform="translate(138, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#22d3ee"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">📥</text>
+    <text class="jbb" x="56" y="58" font-size="10.5" fill="#f0f6fc" text-anchor="middle">COLLECTION</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Universal Fwd</text>
+  </g>
+
+  <!-- Arrow 2-3 -->
+  <line class="flow-line" x1="250" y1="48" x2="274" y2="48" stroke="#58a6ff" stroke-width="2"/>
+  <polygon points="276,48 270,44 270,52" fill="#58a6ff"/>
+
+  <!-- 3. SIEM / SPLUNK -->
+  <g transform="translate(276, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#3fb950"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">⚡</text>
+    <text class="jbb" x="56" y="58" font-size="10.5" fill="#3fb950" text-anchor="middle">SPLUNK SIEM</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Central Ingest</text>
+  </g>
+
+  <!-- Arrow 3-4 -->
+  <line class="flow-line" x1="388" y1="48" x2="412" y2="48" stroke="#3fb950" stroke-width="2"/>
+  <polygon points="414,48 408,44 408,52" fill="#3fb950"/>
+
+  <!-- 4. NORMALIZATION -->
+  <g transform="translate(414, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#3fb950"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">🔄</text>
+    <text class="jbb" x="56" y="58" font-size="10" fill="#f0f6fc" text-anchor="middle">NORMALIZE</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">CIM Field Extr</text>
+  </g>
+
+  <!-- Arrow 4-5 -->
+  <line class="flow-line" x1="526" y1="48" x2="550" y2="48" stroke="#3fb950" stroke-width="2"/>
+  <polygon points="552,48 546,44 546,52" fill="#3fb950"/>
+
+  <!-- 5. CORRELATION -->
+  <g transform="translate(552, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#a78bfa"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">🔗</text>
+    <text class="jbb" x="56" y="58" font-size="10" fill="#f0f6fc" text-anchor="middle">CORRELATION</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Multi-Source</text>
+  </g>
+
+  <!-- Arrow 5-6 -->
+  <line class="flow-line" x1="664" y1="48" x2="688" y2="48" stroke="#a78bfa" stroke-width="2"/>
+  <polygon points="690,48 684,44 684,52" fill="#a78bfa"/>
+
+  <!-- 6. DETECTION RULE -->
+  <g transform="translate(690, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#a78bfa"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">📐</text>
+    <text class="jbb" x="56" y="58" font-size="9.5" fill="#a78bfa" text-anchor="middle">DETECTION RULE</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">MITRE ATT&amp;CK</text>
+  </g>
+
+  <!-- Arrow 6-7 -->
+  <line class="flow-line" x1="802" y1="48" x2="826" y2="48" stroke="#d29922" stroke-width="2"/>
+  <polygon points="828,48 822,44 822,52" fill="#d29922"/>
+
+  <!-- 7. ALERT -->
+  <g transform="translate(828, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#d29922"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">🚨</text>
+    <text class="jbb" x="56" y="58" font-size="10.5" fill="#d29922" text-anchor="middle">ALERT</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Severity Score</text>
+  </g>
+
+  <!-- Arrow 7-8 -->
+  <line class="flow-line" x1="940" y1="48" x2="964" y2="48" stroke="#d29922" stroke-width="2"/>
+  <polygon points="966,48 960,44 960,52" fill="#d29922"/>
+
+  <!-- 8. INVESTIGATION -->
+  <g transform="translate(966, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#f85149"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">🔍</text>
+    <text class="jbb" x="56" y="58" font-size="9.5" fill="#f0f6fc" text-anchor="middle">INVESTIGATION</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">SOC Analyst HUD</text>
+  </g>
+
+  <!-- Arrow 8-9 -->
+  <line class="flow-line" x1="1078" y1="48" x2="1102" y2="48" stroke="#f85149" stroke-width="2"/>
+  <polygon points="1104,48 1098,44 1098,52" fill="#f85149"/>
+
+  <!-- 9. RESPONSE -->
+  <g transform="translate(1104, 0)">
+    <rect width="112" height="96" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="112" height="3" rx="1.5" fill="#f85149"/>
+    <text x="56" y="34" font-size="20" text-anchor="middle">🛡️</text>
+    <text class="jbb" x="56" y="58" font-size="10.5" fill="#f85149" text-anchor="middle">RESPONSE</text>
+    <text class="jb" x="56" y="74" font-size="8.5" fill="#8b949e" text-anchor="middle">Isolate / Ban</text>
+  </g>
+
+</g>
+
+</svg>

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="What I Do - SOC Analyst Capabilities">
+<title>What I Do — Blue Team &amp; SOC Operations</title>
+<desc>Four core defensive competencies: SOC Monitoring, SIEM Analysis, Threat Detection, and Incident Response.</desc>
+<defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.sg{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.sgm{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:500}
+.jb{font-family:'JetBrains Mono',Consolas,monospace}
+.jbb{font-family:'JetBrains Mono',Consolas,monospace;font-weight:700}
+@keyframes pulseDot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(.85)}}
+.dot-live{transform-origin:center;animation:pulseDot 2s ease-in-out infinite}
+.card-hover{transition:transform .2s ease,stroke .2s ease}
+.card-hover:hover{stroke:#58a6ff}
+</style>
+<linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#30363d"/><stop offset="1" stop-color="#21262d"/></linearGradient>
+<linearGradient id="c1G" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<linearGradient id="c2G" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3fb950"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+<linearGradient id="c3G" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#a78bfa"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+<linearGradient id="c4G" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f85149"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+<pattern id="dotPattern" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".7" fill="#fff" fill-opacity=".04"/></pattern>
+</defs>
+
+<!-- Outer Container -->
+<rect width="1280" height="340" rx="18" fill="#0d1117"/>
+<rect width="1280" height="340" rx="18" fill="url(#dotPattern)"/>
+<rect x=".75" y=".75" width="1278.5" height="338.5" rx="17.25" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- Header -->
+<text class="jbb" x="32" y="42" font-size="12" fill="#58a6ff" letter-spacing="2">// OPERATIONAL FOCUS</text>
+<text class="sg" x="32" y="74" font-size="24" fill="#f0f6fc" letter-spacing="-.3">What I Do — Blue Team Defense</text>
+<text class="sgm" x="480" y="73" font-size="13" fill="#8b949e">Continuous telemetry monitoring, log analysis, and threat mitigation</text>
+
+<!-- 4 Compact Cards Grid (width: 288 each, spacing: 18) -->
+
+<!-- CARD 1: SOC MONITORING -->
+<g transform="translate(32, 98)">
+  <rect class="card-hover" width="286" height="216" rx="14" fill="url(#cardbg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="286" height="4" rx="2" fill="url(#c1G)"/>
+  
+  <rect x="20" y="24" width="38" height="38" rx="10" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-width="1"/>
+  <text x="39" y="48" font-size="18" text-anchor="middle">📡</text>
+  
+  <text class="sg" x="68" y="40" font-size="16" fill="#f0f6fc">SOC Monitoring</text>
+  <text class="jbb" x="68" y="56" font-size="10.5" fill="#22d3ee" letter-spacing=".5">24/7 TELEMETRY VIGIL</text>
+  
+  <text class="sgm" x="20" y="96" font-size="12.5" fill="#c9d1d9">Real-time surveillance across perimeters,</text>
+  <text class="sgm" x="20" y="116" font-size="12.5" fill="#c9d1d9">analyzing Linux authentication logs,</text>
+  <text class="sgm" x="20" y="136" font-size="12.5" fill="#c9d1d9">Windows EventLogs &amp; network feeds.</text>
+  
+  <g transform="translate(20, 168)">
+    <rect width="246" height="28" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#22d3ee"/>
+    <text class="jbb" x="28" y="18" font-size="9.5" fill="#22d3ee" letter-spacing="1">STATUS: ACTIVE INGESTION</text>
+  </g>
+</g>
+
+<!-- CARD 2: SIEM ANALYSIS -->
+<g transform="translate(336, 98)">
+  <rect class="card-hover" width="286" height="216" rx="14" fill="url(#cardbg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="286" height="4" rx="2" fill="url(#c2G)"/>
+  
+  <rect x="20" y="24" width="38" height="38" rx="10" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-width="1"/>
+  <text x="39" y="48" font-size="18" text-anchor="middle">⚡</text>
+  
+  <text class="sg" x="68" y="40" font-size="16" fill="#f0f6fc">SIEM Analysis</text>
+  <text class="jbb" x="68" y="56" font-size="10.5" fill="#3fb950" letter-spacing=".5">SPLUNK &amp; SPL QUERIES</text>
+  
+  <text class="sgm" x="20" y="96" font-size="12.5" fill="#c9d1d9">Crafting complex search queries,</text>
+  <text class="sgm" x="20" y="116" font-size="12.5" fill="#c9d1d9">field extractions, index tuning, and</text>
+  <text class="sgm" x="20" y="136" font-size="12.5" fill="#c9d1d9">high-fidelity executive dashboards.</text>
+  
+  <g transform="translate(20, 168)">
+    <rect width="246" height="28" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#3fb950"/>
+    <text class="jbb" x="28" y="18" font-size="9.5" fill="#3fb950" letter-spacing="1">SPL ENGINE: OPERATIONAL</text>
+  </g>
+</g>
+
+<!-- CARD 3: THREAT DETECTION -->
+<g transform="translate(640, 98)">
+  <rect class="card-hover" width="286" height="216" rx="14" fill="url(#cardbg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="286" height="4" rx="2" fill="url(#c3G)"/>
+  
+  <rect x="20" y="24" width="38" height="38" rx="10" fill="#a78bfa" fill-opacity=".12" stroke="#a78bfa" stroke-width="1"/>
+  <text x="39" y="48" font-size="18" text-anchor="middle">🎯</text>
+  
+  <text class="sg" x="68" y="40" font-size="16" fill="#f0f6fc">Threat Detection</text>
+  <text class="jbb" x="68" y="56" font-size="10.5" fill="#a78bfa" letter-spacing=".5">MITRE ATT&amp;CK MAPPING</text>
+  
+  <text class="sgm" x="20" y="96" font-size="12.5" fill="#c9d1d9">Correlating attack vectors: brute force,</text>
+  <text class="sgm" x="20" y="116" font-size="12.5" fill="#c9d1d9">DNS tunneling, C2 beacon intervals,</text>
+  <text class="sgm" x="20" y="136" font-size="12.5" fill="#c9d1d9">and credential discovery anomalies.</text>
+  
+  <g transform="translate(20, 168)">
+    <rect width="246" height="28" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#a78bfa"/>
+    <text class="jbb" x="28" y="18" font-size="9.5" fill="#a78bfa" letter-spacing="1">RULES: ACTIVE EVALUATION</text>
+  </g>
+</g>
+
+<!-- CARD 4: INCIDENT RESPONSE -->
+<g transform="translate(944, 98)">
+  <rect class="card-hover" width="286" height="216" rx="14" fill="url(#cardbg)" stroke="#30363d" stroke-width="1.2"/>
+  <rect width="286" height="4" rx="2" fill="url(#c4G)"/>
+  
+  <rect x="20" y="24" width="38" height="38" rx="10" fill="#f85149" fill-opacity=".12" stroke="#f85149" stroke-width="1"/>
+  <text x="39" y="48" font-size="18" text-anchor="middle">🛡️</text>
+  
+  <text class="sg" x="68" y="40" font-size="16" fill="#f0f6fc">Incident Response</text>
+  <text class="jbb" x="68" y="56" font-size="10.5" fill="#f85149" letter-spacing=".5">TRIAGE &amp; CONTAINMENT</text>
+  
+  <text class="sgm" x="20" y="96" font-size="12.5" fill="#c9d1d9">Executing rapid threat containment,</text>
+  <text class="sgm" x="20" y="116" font-size="12.5" fill="#c9d1d9">host isolation, credential reset,</text>
+  <text class="sgm" x="20" y="136" font-size="12.5" fill="#c9d1d9">and post-mortem defense hardening.</text>
+  
+  <g transform="translate(20, 168)">
+    <rect width="246" height="28" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1"/>
+    <circle class="dot-live" cx="16" cy="14" r="4.5" fill="#f85149"/>
+    <text class="jbb" x="28" y="18" font-size="9.5" fill="#f85149" letter-spacing="1">RESPONSE: PLAYBOOKS READY</text>
+  </g>
+</g>
+
+</svg>

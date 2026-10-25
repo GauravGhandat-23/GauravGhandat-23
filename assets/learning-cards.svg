@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 440" width="1280" height="440" role="img" aria-label="Project &amp; Learning Cards">
+<title>Project &amp; Defense Framework Cards</title>
+<desc>Six categorized technical domains: SOC Labs, Network Security, Windows Server, Linux System Security, SIEM &amp; Logs, and Python Automation.</desc>
+<defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.sg{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.sgm{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:500}
+.jb{font-family:'JetBrains Mono',Consolas,monospace}
+.jbb{font-family:'JetBrains Mono',Consolas,monospace;font-weight:700}
+.card{transition:stroke .2s ease,transform .2s ease}
+.card:hover{stroke:#58a6ff;transform:translateY(-2px)}
+</style>
+<linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="1" stop-color="#0d1117"/></linearGradient>
+<pattern id="dotP3" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".7" fill="#fff" fill-opacity=".04"/></pattern>
+</defs>
+
+<!-- Outer Container -->
+<rect width="1280" height="440" rx="18" fill="#0d1117"/>
+<rect width="1280" height="440" rx="18" fill="url(#dotP3)"/>
+<rect x=".75" y=".75" width="1278.5" height="438.5" rx="17.25" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+<!-- Title -->
+<text class="jbb" x="32" y="38" font-size="11.5" fill="#58a6ff" letter-spacing="1.8">// TECHNICAL REPOSITORIES</text>
+<text class="sg" x="32" y="68" font-size="22" fill="#f0f6fc">Cybersecurity &amp; Infrastructure Labs</text>
+<text class="sgm" x="460" y="67" font-size="12" fill="#8b949e">Modular laboratory environments and real-world defense engineering</text>
+
+<!-- 6 Cards Grid (2 rows x 3 columns) -->
+<!-- Card width: 386, height: 154, x spacing: 28, y spacing: 20 -->
+
+<!-- ROW 1 -->
+<g transform="translate(32, 94)">
+
+  <!-- CARD 1: SOC LABS -->
+  <g transform="translate(0, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#22d3ee"/>
+    <circle cx="30" cy="34" r="14" fill="#22d3ee" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🛡️</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">SSH Log Analysis with Splunk</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#22d3ee">SOC LABS // AUTH DEFENSE</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">Enterprise SSH log ingestion detecting brute-force</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">spikes, credential spraying, and geo anomalies.</text>
+    <g transform="translate(20, 116)">
+      <rect width="64" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="32" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Splunk</text>
+      <rect x="70" y="0" width="46" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="93" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">SPL</text>
+      <rect x="122" y="0" width="80" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="162" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Linux SSH</text>
+    </g>
+  </g>
+
+  <!-- CARD 2: NETWORK SECURITY -->
+  <g transform="translate(414, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#3fb950"/>
+    <circle cx="30" cy="34" r="14" fill="#3fb950" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🌐</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">DNS Log Analysis with Splunk</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#3fb950">NETWORK FORENSICS // ZEEK</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">Zeek JSON DNS logs parsing to expose malicious</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">domain lengths, tunneling, and exfiltration.</text>
+    <g transform="translate(20, 116)">
+      <rect width="56" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="28" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Zeek</text>
+      <rect x="62" y="0" width="76" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="100" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">DNS Logs</text>
+      <rect x="144" y="0" width="76" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="182" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">C2 Tunnel</text>
+    </g>
+  </g>
+
+  <!-- CARD 3: WEB LOG ANALYSIS -->
+  <g transform="translate(828, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#a78bfa"/>
+    <circle cx="30" cy="34" r="14" fill="#a78bfa" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🔍</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">HTTP Log Analysis with Splunk</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#a78bfa">WEB APPLICATION DEFENSE</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">Apache web proxy analysis for SQLi injection,</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">path traversal, XSS signatures, and scanners.</text>
+    <g transform="translate(20, 116)">
+      <rect width="64" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="32" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Apache</text>
+      <rect x="70" y="0" width="56" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="98" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">WAF</text>
+      <rect x="132" y="0" width="86" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="175" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">App Security</text>
+    </g>
+  </g>
+</g>
+
+<!-- ROW 2 -->
+<g transform="translate(32, 264)">
+
+  <!-- CARD 4: WINDOWS SERVER & AD DS -->
+  <g transform="translate(0, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#58a6ff"/>
+    <circle cx="30" cy="34" r="14" fill="#58a6ff" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🏢</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">Windows Server &amp; Active Directory</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#58a6ff">IDENTITY &amp; DIRECTORY DEFENSE</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">AD DS Domain Administration, Group Policy (GPO),</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">Kerberos auditing, and access control lifecycle.</text>
+    <g transform="translate(20, 116)">
+      <rect width="70" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="35" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">AD DS</text>
+      <rect x="76" y="0" width="56" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="104" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">GPO</text>
+      <rect x="138" y="0" width="86" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="181" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Win Server</text>
+    </g>
+  </g>
+
+  <!-- CARD 5: LINUX HARDENING -->
+  <g transform="translate(414, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#d29922"/>
+    <circle cx="30" cy="34" r="14" fill="#d29922" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🐧</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">Secure User Access in Linux</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#d29922">LINUX HARDENING // POSIX &amp; FACL</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">Granular file permissions, File Access Control</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">Lists (FACL), PAM rules, and audit compliance.</text>
+    <g transform="translate(20, 116)">
+      <rect width="56" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="28" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Linux</text>
+      <rect x="62" y="0" width="56" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="90" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">FACL</text>
+      <rect x="124" y="0" width="76" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="162" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Hardening</text>
+    </g>
+  </g>
+
+  <!-- CARD 6: QUANTUM AI SECURITY -->
+  <g transform="translate(828, 0)">
+    <rect class="card" width="386" height="150" rx="12" fill="url(#cbg)" stroke="#30363d" stroke-width="1.2"/>
+    <rect width="386" height="3" rx="1.5" fill="#f85149"/>
+    <circle cx="30" cy="34" r="14" fill="#f85149" fill-opacity=".15"/>
+    <text x="30" y="39" font-size="14" text-anchor="middle">🤖</text>
+    <text class="sg" x="54" y="30" font-size="15" fill="#f0f6fc">Quantum-Resistant AI Cybersecurity</text>
+    <text class="jbb" x="54" y="46" font-size="9.5" fill="#f85149">PYTHON // AI THREAT ANALYSIS</text>
+    <text class="sgm" x="20" y="80" font-size="12" fill="#8b949e">AI-powered threat analysis integrating Groq AI</text>
+    <text class="sgm" x="20" y="98" font-size="12" fill="#8b949e">models with post-quantum cryptography algorithms.</text>
+    <g transform="translate(20, 116)">
+      <rect width="64" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="32" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Python</text>
+      <rect x="70" y="0" width="60" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="100" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Groq AI</text>
+      <rect x="136" y="0" width="94" height="20" rx="4" fill="#21262d"/>
+      <text class="jb" x="183" y="14" font-size="9" fill="#c9d1d9" text-anchor="middle">Post-Quantum</text>
+    </g>
+  </g>
+</g>
+
+</svg>

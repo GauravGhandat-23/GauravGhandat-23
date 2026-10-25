@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Gaurav Ghandat - SOC Operations and Defender Mindset">
+<title>SOC Operations &amp; Defender Mindset</title>
+<desc>Left: Live SOC terminal and detection competencies. Right: Threat hunting lab, packet analysis, and daily defense rings.</desc>
+<defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.sg{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:700}
+.sgm{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;font-weight:500}
+.jb{font-family:'JetBrains Mono',Consolas,monospace}
+.jbb{font-family:'JetBrains Mono',Consolas,monospace;font-weight:700}
+@keyframes fadeUp{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+.cursor{animation:pulse 1s steps(1) infinite}
+.slide{animation:slideCycle 12s cubic-bezier(.2,.8,.2,1) infinite}
+@keyframes slideCycle{0%{opacity:0;transform:translateX(46px)}5%{opacity:1;transform:translateX(0)}29%{opacity:1;transform:translateX(0)}33.3%{opacity:0;transform:translateX(-46px)}100%{opacity:0;transform:translateX(-46px)}}
+.cardL{animation:fadeUp .8s cubic-bezier(.2,.8,.2,1) .1s both}
+.cardR{animation:fadeUp .8s cubic-bezier(.2,.8,.2,1) .3s both}
+</style>
+<linearGradient id="edgeL" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#00e5ff" stop-opacity=".55"/><stop offset=".5" stop-color="#1e293b"/><stop offset="1" stop-color="#a78bfa" stop-opacity=".5"/></linearGradient>
+<linearGradient id="edgeR" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#34d399" stop-opacity=".55"/><stop offset=".5" stop-color="#1e293b"/><stop offset="1" stop-color="#00e5ff" stop-opacity=".5"/></linearGradient>
+<linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0c101d"/><stop offset="1" stop-color="#070a12"/></linearGradient>
+<clipPath id="winL"><rect x="28" y="118" width="564" height="352" rx="14"/></clipPath>
+<clipPath id="winR"><rect x="688" y="118" width="564" height="352" rx="14"/></clipPath>
+<pattern id="dots2" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".8" fill="#fff" fill-opacity=".05"/></pattern>
+</defs>
+
+<!-- LEFT CARD: WHOAMI & SOC OPERATIONS -->
+<g class="cardL">
+  <rect x="0" y="0" width="620" height="640" rx="24" fill="url(#cardbg)"/>
+  <rect x="0" y="0" width="620" height="640" rx="24" fill="url(#dots2)"/>
+  <rect x=".75" y=".75" width="618.5" height="638.5" rx="23.25" fill="none" stroke="url(#edgeL)" stroke-width="1.5"/>
+
+  <text class="jbb" x="28" y="46" font-size="12.5" fill="#00e5ff" letter-spacing="2.2">// WHOAMI &amp; SOC OPERATIONS</text>
+  <text class="sg" x="28" y="86" font-size="28" fill="#eceef6" letter-spacing="-.5">Securing systems, one log at a time</text>
+
+  <!-- Terminal Window -->
+  <g clip-path="url(#winL)">
+    <rect x="28" y="118" width="564" height="352" fill="#050811"/>
+    <!-- Window titlebar -->
+    <rect x="28" y="118" width="564" height="34" fill="#12182c"/>
+    <circle cx="46" cy="135" r="5" fill="#ff5f57"/><circle cx="62" cy="135" r="5" fill="#febc2e"/><circle cx="78" cy="135" r="5" fill="#28c840"/>
+    <rect x="178" y="126" width="264" height="18" rx="9" fill="#070a12"/>
+    <text class="jb" x="310" y="139" font-size="11" fill="#8d93ab" text-anchor="middle">splunk:8000/en-US/app/soc_terminal</text>
+    <rect class="cursor" x="420" y="130" width="1.5" height="11" fill="#00e5ff"/>
+
+    <!-- Terminal typing body -->
+    <g transform="translate(48, 175)">
+      <text class="jb" x="0" y="0" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">whoami</tspan></text>
+      <text class="jb" x="0" y="20" font-size="12.5" fill="#eceef6">Gaurav Ghandat</text>
+
+      <text class="jb" x="0" y="46" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">role</tspan></text>
+      <text class="jb" x="0" y="66" font-size="12.5" fill="#eceef6">SOC Analyst / Blue Team Defender</text>
+
+      <text class="jb" x="0" y="92" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">specialization</tspan></text>
+      <text class="jb" x="0" y="112" font-size="12.5" fill="#eceef6">Blue Team / SIEM / Threat Detection</text>
+
+      <text class="jb" x="0" y="138" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">primary_siem</tspan></text>
+      <text class="jb" x="0" y="158" font-size="12.5" fill="#eceef6">Splunk Enterprise (SPL Analytics)</text>
+
+      <text class="jb" x="0" y="184" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">operating_systems</tspan></text>
+      <text class="jb" x="0" y="204" font-size="12.5" fill="#eceef6">Windows Server / Active Directory / Linux</text>
+
+      <text class="jb" x="0" y="230" font-size="13"><tspan fill="#34d399">$ </tspan><tspan fill="#00e5ff" font-weight="bold">mission</tspan></text>
+      <text class="jbb" x="0" y="250" font-size="13" fill="#34d399">Detect → Investigate → Correlate → Respond</text>
+    </g>
+  </g>
+
+  <!-- Competency rows -->
+  <g transform="translate(28, 492)">
+    <circle cx="16" cy="16" r="14" fill="#00e5ff" fill-opacity=".15"/>
+    <text x="16" y="21" font-size="13" text-anchor="middle">🛡️</text>
+    <text class="sg" x="42" y="14" font-size="15" fill="#eceef6">SIEM &amp; Telemetry Ingestion</text>
+    <text class="jb" x="42" y="32" font-size="12" fill="#8d93ab">Splunk Enterprise, Zeek JSON, Linux Secure, Windows EventLogs</text>
+  </g>
+  <g transform="translate(28, 542)">
+    <circle cx="16" cy="16" r="14" fill="#34d399" fill-opacity=".15"/>
+    <text x="16" y="21" font-size="13" text-anchor="middle">🎯</text>
+    <text class="sg" x="42" y="14" font-size="15" fill="#eceef6">Detection Coverage &amp; MITRE ATT&amp;CK</text>
+    <text class="jb" x="42" y="32" font-size="12" fill="#8d93ab">Brute force (T1110), DNS Tunneling (T1071.004), C2 Beaconing</text>
+  </g>
+  <g transform="translate(28, 592)">
+    <circle cx="16" cy="16" r="14" fill="#a78bfa" fill-opacity=".15"/>
+    <text x="16" y="21" font-size="13" text-anchor="middle">⚙️</text>
+    <text class="sg" x="42" y="14" font-size="15" fill="#eceef6">Infrastructure &amp; Identity Hardening</text>
+    <text class="jb" x="42" y="32" font-size="12" fill="#8d93ab">Active Directory, Group Policy, RHEL, Linux FACL, Patching</text>
+  </g>
+</g>
+
+<!-- RIGHT CARD: DEFENDER MINDSET & OFF THE CLOCK -->
+<g class="cardR" transform="translate(660, 0)">
+  <rect x="0" y="0" width="620" height="640" rx="24" fill="url(#cardbg)"/>
+  <rect x="0" y="0" width="620" height="640" rx="24" fill="url(#dots2)"/>
+  <rect x=".75" y=".75" width="618.5" height="638.5" rx="23.25" fill="none" stroke="url(#edgeR)" stroke-width="1.5"/>
+
+  <text class="jbb" x="28" y="46" font-size="12.5" fill="#34d399" letter-spacing="2.2">// DEFENDER MINDSET &amp; OFF THE CLOCK</text>
+  <text class="sg" x="28" y="86" font-size="28" fill="#eceef6" letter-spacing="-.5">Vigilant analysis, continuous learning</text>
+
+  <!-- Carousel Area -->
+  <g clip-path="url(#winR)">
+    <!-- Slide 1: Threat Lab -->
+    <g class="slide" style="animation-delay:0s">
+      <rect x="688" y="118" width="564" height="352" fill="#080d1a"/>
+      <rect x="716" y="146" width="508" height="296" rx="14" fill="#0f1629" stroke="#1e293b" stroke-width="1.2"/>
+      <text class="jbb" x="744" y="184" font-size="11.5" fill="#00e5ff" letter-spacing="2">THREAT LAB</text>
+      <text class="sg" x="744" y="218" font-size="24" fill="#eceef6">Adversary Emulation</text>
+      <text class="sgm" x="744" y="254" font-size="14.5" fill="#8d93ab">Simulating attack techniques in private sandboxes</text>
+      <text class="sgm" x="744" y="278" font-size="14.5" fill="#8d93ab">to craft high-fidelity SPL detection rules.</text>
+      <g transform="translate(744, 316)">
+        <rect width="130" height="28" rx="14" fill="#162238" stroke="#00e5ff" stroke-width="1"/>
+        <text x="65" y="18" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">MITRE ATT&amp;CK</text>
+        <rect x="142" y="0" width="110" height="28" rx="14" fill="#162238" stroke="#34d399" stroke-width="1"/>
+        <text x="197" y="18" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">SPL Queries</text>
+      </g>
+    </g>
+
+    <!-- Slide 2: Packet Sleuth -->
+    <g class="slide" style="animation-delay:4s">
+      <rect x="688" y="118" width="564" height="352" fill="#080d1a"/>
+      <rect x="716" y="146" width="508" height="296" rx="14" fill="#0f1629" stroke="#1e293b" stroke-width="1.2"/>
+      <text class="jbb" x="744" y="184" font-size="11.5" fill="#34d399" letter-spacing="2">PACKET HUNT</text>
+      <text class="sg" x="744" y="218" font-size="24" fill="#eceef6">Network Forensics</text>
+      <text class="sgm" x="744" y="254" font-size="14.5" fill="#8d93ab">Dissecting raw packet streams in Wireshark &amp; Zeek</text>
+      <text class="sgm" x="744" y="278" font-size="14.5" fill="#8d93ab">to unmask stealthy C2 beaconing &amp; exfiltration.</text>
+      <g transform="translate(744, 316)">
+        <rect width="110" height="28" rx="14" fill="#162238" stroke="#34d399" stroke-width="1"/>
+        <text x="55" y="18" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">Wireshark</text>
+        <rect x="122" y="0" width="100" height="28" rx="14" fill="#162238" stroke="#38bdf8" stroke-width="1"/>
+        <text x="172" y="18" font-size="11" font-weight="bold" fill="#38bdf8" text-anchor="middle">Zeek Logs</text>
+      </g>
+    </g>
+
+    <!-- Slide 3: Certifications & Lifelong Learning -->
+    <g class="slide" style="animation-delay:8s">
+      <rect x="688" y="118" width="564" height="352" fill="#080d1a"/>
+      <rect x="716" y="146" width="508" height="296" rx="14" fill="#0f1629" stroke="#1e293b" stroke-width="1.2"/>
+      <text class="jbb" x="744" y="184" font-size="11.5" fill="#a78bfa" letter-spacing="2">CONTINUOUS LEARNING</text>
+      <text class="sg" x="744" y="218" font-size="24" fill="#eceef6">Professional Credentials</text>
+      <text class="sgm" x="744" y="254" font-size="14.5" fill="#8d93ab">Strengthening offensive &amp; defensive tradecraft</text>
+      <text class="sgm" x="744" y="278" font-size="14.5" fill="#8d93ab">through CRTA, Security Blue Team, &amp; OCI Architect.</text>
+      <g transform="translate(744, 316)">
+        <rect width="80" height="28" rx="14" fill="#162238" stroke="#ef4444" stroke-width="1"/>
+        <text x="40" y="18" font-size="11" font-weight="bold" fill="#ef4444" text-anchor="middle">CRTA</text>
+        <rect x="92" y="0" width="160" height="28" rx="14" fill="#162238" stroke="#00e5ff" stroke-width="1"/>
+        <text x="172" y="18" font-size="11" font-weight="bold" fill="#00e5ff" text-anchor="middle">Security Blue Team</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Daily Rings HUD -->
+  <g transform="translate(28, 510)">
+    <text class="jbb" x="0" y="0" font-size="11.5" fill="#8d93ab" letter-spacing="2">DAILY DEFENDER RINGS</text>
+
+    <!-- Ring 1: Monitor -->
+    <g transform="translate(40, 55)">
+      <circle r="34" fill="none" stroke="#161f36" stroke-width="6"/>
+      <circle r="34" fill="none" stroke="#00e5ff" stroke-width="6" stroke-dasharray="190 213" stroke-linecap="round"/>
+      <text y="5" text-anchor="middle" font-size="11" font-weight="bold" fill="#00e5ff">100%</text>
+      <text y="52" text-anchor="middle" font-size="12" fill="#eceef6">Monitor</text>
+    </g>
+
+    <!-- Ring 2: Investigate -->
+    <g transform="translate(210, 55)">
+      <circle r="34" fill="none" stroke="#161f36" stroke-width="6"/>
+      <circle r="34" fill="none" stroke="#a78bfa" stroke-width="6" stroke-dasharray="160 213" stroke-linecap="round"/>
+      <text y="5" text-anchor="middle" font-size="11" font-weight="bold" fill="#a78bfa">85%</text>
+      <text y="52" text-anchor="middle" font-size="12" fill="#eceef6">Investigate</text>
+    </g>
+
+    <!-- Ring 3: Defend -->
+    <g transform="translate(380, 55)">
+      <circle r="34" fill="none" stroke="#161f36" stroke-width="6"/>
+      <circle r="34" fill="none" stroke="#34d399" stroke-width="6" stroke-dasharray="180 213" stroke-linecap="round"/>
+      <text y="5" text-anchor="middle" font-size="11" font-weight="bold" fill="#34d399">92%</text>
+      <text y="52" text-anchor="middle" font-size="12" fill="#eceef6">Defend</text>
+    </g>
+  </g>
+</g>
+</svg>
