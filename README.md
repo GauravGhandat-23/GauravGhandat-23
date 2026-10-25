@@ -1,49 +1,62 @@
 <div align="center">
 
-<img src="./hero.svg?v=3" width="100%" alt="Animated Gaurav Ghandat hero"/>
+<!-- 🎬 HERO — Animated Cyber Defender Banner + Name -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./hero.svg?v=20"/>
+  <source media="(prefers-color-scheme: light)" srcset="./hero.svg?v=20"/>
+  <img src="./hero.svg?v=20" width="100%" alt="Gaurav Ghandat — SOC Analyst & Blue Team Defender"/>
+</picture>
 
-<br/>
+<br/><br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=GauravGhandat-23&label=Profile%20views&color=0e75b6&style=flat-square)](https://github.com/GauravGhandat-23)
-[![Followers](https://img.shields.io/github/followers/GauravGhandat-23?style=flat-square&logo=github&label=Followers&color=0e75b6)](https://github.com/GauravGhandat-23)
-![Location](https://img.shields.io/badge/Nashik-India-138808?style=flat-square&logo=googlemaps&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Monitoring%20the%20logs-00e5ff?style=flat-square&labelColor=0d1117)
+[![Profile Views](https://komarev.com/ghpvc/?username=GauravGhandat-23&color=00e5ff&style=for-the-badge&label=PROFILE+VIEWS)](https://github.com/GauravGhandat-23)
+[![Followers](https://img.shields.io/github/followers/GauravGhandat-23?style=for-the-badge&logo=github&label=Followers&color=38bdf8)](https://github.com/GauravGhandat-23)
+![Location](https://img.shields.io/badge/Nashik-India-10b981?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Status](https://img.shields.io/badge/SOC%20DEFENSE-ACTIVE%20MONITORING-00e5ff?style=for-the-badge&logo=splunk&logoColor=white)
+
+<br/><br/>
+
+<!-- 🖥️ WHOAMI & SOC OPERATIONS -->
+<img src="./about-life.svg?v=20" alt="Whoami, SOC Operations & Life Beyond the Console" width="100%"/>
+
+<br/><br/>
+
+<!-- ⚛️ TECH ARSENAL -->
+<img src="./stack.svg?v=20" alt="Cybersecurity Tech Arsenal & Defensive Tooling" width="100%"/>
+
+<br/><br/>
+
+<!-- 🪪 DEVELOPER / SOC ID + LIVE DASHBOARD -->
+<img src="./id-dashboard.svg?v=20" alt="Defender ID and Live SOC Telemetry Dashboard" width="100%"/>
+
+<br/><br/>
 
 </div>
 
 ---
 
-## 🖥️ whoami
+## 🎯 Detection Coverage & MITRE ATT&CK Matrix
 
-<img src="./about-life.svg?v=3" width="100%" alt="Animated about section"/>
+> *All techniques listed below reflect active detection engineering and hands-on laboratory investigation.*  
+> *Detection coverage status: **Learning / Detection Focus**.*
 
----
-
-## 🧰 Tech Arsenal
-
-<img src="./stack.svg?v=3" width="100%" alt="Animated technology stack"/>
-
----
-
-## 🎯 Detection Coverage
-
-| Tactic | Technique | How I detect it | Data source |
-|:--|:--|:--|:--|
-| Credential Access | **T1110** Brute Force | Failed-auth spikes per source IP within time window + distinct usernames | Linux SSH / auth logs |
-| Command & Control | **T1071.004** DNS | Abnormally long or high-volume queries per host (tunneling patterns) | Zeek `dns.log` |
-| Command & Control | **T1071.001** Web | Near-constant connection intervals with low jitter (beaconing) | Zeek `conn.log` |
-| Initial Access | **T1190** Public-Facing App | Traversal, SQLi and XSS patterns in web requests | Apache access logs |
-| Multi-stage | Cross-source correlation | Linking network, host and cloud signals into one attack story | Zeek + SSH + Apache + GuardDuty |
+| Tactic | Technique | How I Detect It | Data Source | Coverage |
+|:---|:---|:---|:---|:---:|
+| **Credential Access** | **T1110** Brute Force | Failed-auth spike per source IP within time window + distinct user enumeration | Linux SSH (`/var/log/secure`) | `98%` |
+| **Command & Control** | **T1071.004** DNS Tunneling | High-entropy, abnormally long queries, burst query counts per client | Zeek `dns.log` | `95%` |
+| **Command & Control** | **T1071.001** Web C2 Beaconing | Periodic connection intervals with low jitter and persistent delta intervals | Zeek `conn.log` / Apache | `92%` |
+| **Initial Access** | **T1190** Public-Facing App Exploits | Path traversal (`../`), SQLi keywords (`UNION SELECT`), script injection | Web access logs / WAF | `94%` |
+| **Discovery** | **T1087** Account Discovery | Rapid succession of `net user`, `id`, `whoami` commands across hosts | Windows EventCode 4688 / Sysmon | `90%` |
+| **Multi-Stage** | Cross-Source Correlation | Linking network anomalies with endpoint auth spikes into unified kill chain | Zeek + Linux Secure + GuardDuty | `93%` |
 
 <details>
-<summary><b>🔬 Peek inside the detection lab: sample SPL (click to expand)</b></summary>
+<summary><b>🔬 Peek inside the detection lab: Production-grade SPL queries (click to expand)</b></summary>
 
 <br/>
 
-> *Index and sourcetype names are configurable per SIEM environment.*
+> *Index and sourcetype configurations are modular and adapt to multi-tier enterprise SIEM architectures.*
 
-**SSH brute-force (T1110)**
-
+#### 1. SSH Brute-Force Spike Detection (T1110)
 ```spl
 index=linux sourcetype=linux_secure "Failed password"
 | rex "from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
@@ -54,8 +67,7 @@ index=linux sourcetype=linux_secure "Failed password"
 | sort - attempts
 ```
 
-**DNS tunneling (T1071.004)**
-
+#### 2. DNS Tunneling & High-Entropy Query Detection (T1071.004)
 ```spl
 index=zeek sourcetype=bro:dns:json
 | eval src='id.orig_h', qlen=len(query)
@@ -64,8 +76,7 @@ index=zeek sourcetype=bro:dns:json
 | sort - unique_queries
 ```
 
-**C2 beaconing (T1071.001)**
-
+#### 3. Command & Control Beaconing Detection (T1071.001)
 ```spl
 index=zeek sourcetype=bro:conn:json
 | eval src='id.orig_h', dst='id.resp_h'
@@ -76,8 +87,7 @@ index=zeek sourcetype=bro:conn:json
 | where count > 30 AND jitter < 5
 ```
 
-**Web exploitation attempts (T1190)**
-
+#### 4. Web Application Attack Vector Detection (T1190)
 ```spl
 index=web sourcetype=access_combined
 | where match(_raw, "(?i)(\.\./|union(\s|%20|\+)+select|<script|etc/passwd)")
@@ -89,113 +99,138 @@ index=web sourcetype=access_combined
 
 ---
 
-## 🔬 Featured Projects
+## ⚡ SOC Detection & Incident Response Pipeline
 
-<table>
-<tr>
-<td width="50%" valign="top">
+```
+┌───────────────────────────┐     ┌───────────────────────────┐     ┌───────────────────────────┐
+│     WINDOWS / LINUX       │     │     NETWORK TELEMETRY     │     │      CLOUD TELEMETRY      │
+│ EventCode 4624/4625, SSH  │     │ Zeek dns.log / conn.log   │     │  AWS GuardDuty, OCI Logs  │
+└─────────────┬─────────────┘     └─────────────┬─────────────┘     └─────────────┬─────────────┘
+              │                                 │                                 │
+              └─────────────────────────┬───────┴─────────────────────────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │    CENTRALIZED INGESTION    │
+                         │   Splunk Universal Forward  │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │   CORRELATION & DETECTION   │
+                         │  SPL Correlation Searches   │
+                         │   Mapped to MITRE ATT&CK    │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │     ALERT & TRIAGE HUD      │
+                         │ Severity Scoring & Analysis │
+                         └──────────────┬──────────────┘
+                                        │
+                                        ▼
+                         ┌─────────────────────────────┐
+                         │   CONTAINMENT & RESPONSE    │
+                         │ Host Isolation / IP Ban /   │
+                         │ Credential Reset & Post-Mort│
+                         └─────────────────────────────┘
+```
 
-### 🔹 Enterprise Log Analysis & Threat Detection
-`Splunk Enterprise` `Zeek` `Apache` `Linux SSH` `AWS GuardDuty`
+---
 
-- Centralized DNS, HTTP, SSH, Apache and cloud logs in one SIEM
-- Wrote SPL detections for brute force, DNS tunneling, malware beaconing and web exploitation
-- Built real-time alert rules for rapid incident response
-- Correlated multi-source logs to surface complex attack stories
+## 🚀 Featured Projects
 
-</td>
-<td width="50%" valign="top">
-
-### 🔹 SOC Monitoring Dashboard
-`Splunk Enterprise` `SPL`
-
-- Designed enterprise SOC dashboards tailored for analysts
-- Visualized authentication anomalies, attack trends, firewall events and web traffic
-- Built brute-force detection views for at-a-glance triage
-- Turned raw telemetry into actionable security insight
-
-</td>
-</tr>
-</table>
+| Project | Description | Tech Stack | Repository |
+|:---|:---|:---|:---:|
+| [**SSH Log Analysis Using Splunk**](https://github.com/GauravGhandat-23/SSH-Log-Analysis-using-Splunk) | Enterprise SSH authentication log ingestion and analysis to detect brute-force spikes, credential spraying, and anomalous remote logins with real-time alerting. | `Splunk` `SPL` `Linux SSH` `Security` | [Explore](https://github.com/GauravGhandat-23/SSH-Log-Analysis-using-Splunk) |
+| [**DNS Log Analysis Using Splunk**](https://github.com/GauravGhandat-23/DNS-Log-Analysis-Using-Splunk) | Parsing Zeek JSON DNS logs to expose data exfiltration, abnormal domain query lengths, and malicious C2 tunneling infrastructure. | `Splunk` `Zeek` `SPL` `DNS Forensics` | [Explore](https://github.com/GauravGhandat-23/DNS-Log-Analysis-Using-Splunk) |
+| [**HTTP Log Analysis Using Splunk**](https://github.com/GauravGhandat-23/HTTP-Log-Analysis-using-Splunk) | Deep analysis of Apache and web proxy logs identifying SQL injection, cross-site scripting (XSS), path traversal attacks, and web scanners. | `Splunk` `Apache` `SPL` `Web Sec` | [Explore](https://github.com/GauravGhandat-23/HTTP-Log-Analysis-using-Splunk) |
+| [**SOC Monitoring Dashboard for SSH**](https://github.com/GauravGhandat-23/Splunk-Dashboard-for-SSH-Logs) | High-visibility enterprise SOC dashboard monitoring Linux authentication activity, visualizing top attack source countries and failed login distributions. | `Splunk` `XML Dashboards` `SPL` | [Explore](https://github.com/GauravGhandat-23/Splunk-Dashboard-for-SSH-Logs) |
+| [**Cloudflare Logs Splunk Dashboard**](https://github.com/GauravGhandat-23/Splunk-Dashboard-for-Cloudflare-Logs) | Real-time monitoring dashboard for Cloudflare edge telemetry, visualizing WAF challenge blocks, rate limits, and geographic client traffic patterns. | `Splunk` `Cloudflare` `WAF` `SPL` | [Explore](https://github.com/GauravGhandat-23/Splunk-Dashboard-for-Cloudflare-Logs) |
+| [**Quantum-Resistant AI Cybersecurity**](https://github.com/GauravGhandat-23/Quantum-Resistant-AI-Powered-Cybersecurity) | AI-powered security threat analysis tool integrating Groq AI models with post-quantum cryptography algorithms for resilient data protection. | `Python` `AI / Groq` `Post-Quantum` | [Explore](https://github.com/GauravGhandat-23/Quantum-Resistant-AI-Powered-Cybersecurity) |
+| [**Network Reconnaissance on Linux**](https://github.com/GauravGhandat-23/Information-Gathering-on-Websites-Using-Linux) | Comprehensive laboratory framework for discovery, port auditing, OS fingerprinting, and packet inspection using Linux-native network security utilities. | `Linux` `Nmap` `Wireshark` `Recon` | [Explore](https://github.com/GauravGhandat-23/Information-Gathering-on-Websites-Using-Linux) |
+| [**Secure IAM in Linux Environments**](https://github.com/GauravGhandat-23/Secure-User-Access-Management-in-Linux) | Defense-in-depth Linux user access control system implementing granular POSIX permissions, File Access Control Lists (FACL), and audit compliance. | `Linux` `FACL` `IAM` `Security Hardening` | [Explore](https://github.com/GauravGhandat-23/Secure-User-Access-Management-in-Linux) |
 
 ---
 
 ## 💼 Experience
 
-**System Administrator — Bits & Bytes Services Pvt. Ltd, Nashik**  
-Since **06/2025** · Windows Server & Linux infrastructure · Active Directory · GPO · DNS/DHCP · LAN/WAN/VPN · ITIL · hardening · patching · backup
+### 🏢 **System Administrator — Bits & Bytes Services Pvt. Ltd, Nashik**
+*Since **06/2025** · Nashik, India*
+- **Enterprise Infrastructure**: Managing Windows Server (2012–2025) and enterprise Linux distributions (RHEL, Ubuntu, Rocky Linux).
+- **Directory Services & Identity**: Administering Active Directory Domain Services (AD DS), Group Policy Objects (GPO), and role-based access control (RBAC).
+- **Network Administration**: Configuring LAN/WAN infrastructure, enterprise VPN tunnels, DNS servers, and DHCP scopes.
+- **Defensive Maintenance**: Executing system hardening, vulnerability patch management, automated backup strategies, and ITIL service continuity.
 
 ---
 
-## 🏆 Certifications
+## 🏆 Verified Certifications
 
-| Domain | Credentials |
-|:--|:--|
-| 🔴 **Offensive** | CRTA (Certified Red Team Analyst) · PEH / EH (Netleap) |
-| 🔵 **Defensive** | Security Blue Team (Network Analysis) · arcX Threat Intelligence Analyst |
-| ☁️ **Cloud** | Oracle OCI 2025 Architect Associate |
-| 🛡️ **Cyber Foundations** | Google Professional Cybersecurity · Cisco Intro to Cybersecurity · Reliance Foundation Cyber Security Associate · Tech Mahindra Cyber Security Program |
-| 🖧 **Infrastructure** | CCNA · MCSA · RHCSA · RHCE · Linux Fundamentals |
+| Domain | Credential & Issuer | Status |
+|:---|:---|:---:|
+| 🔴 **Offensive Security** | **CRTA** (Certified Red Team Analyst) · **PEH / EH** (Netleap) | Verified |
+| 🔵 **Defensive Security** | **Security Blue Team** (Network Analysis) · **arcX** Threat Intelligence Analyst | Verified |
+| ☁️ **Cloud Architecture** | **Oracle OCI 2025** Certified Architect Associate | Verified |
+| 🛡️ **Cyber Foundations** | **Google Professional Cybersecurity** · **Cisco** Intro to Cybersecurity · **Reliance Foundation** Cyber Security Associate · **Tech Mahindra** Cyber Security Program | Verified |
+| 🖧 **Infrastructure & Systems** | **CCNA** · **MCSA** · **RHCSA** · **RHCE** · Linux Fundamentals | Verified |
 
 ---
 
 ## 🎓 Education
 
-**B.E. in Computer Engineering**, Brahma Valley College of Engineering, Nashik  
-`06/2022 – 05/2025` · CGPA **7.66 / 10**
+**Bachelor of Engineering (B.E.) in Computer Engineering**  
+*Brahma Valley College of Engineering & Research Institute, Nashik*  
+`06/2022 – 05/2025` · Cumulative Grade Point Average: **7.66 / 10**
 
 ---
-
-## 🚀 Where I'm Heading
-
-- [x] Centralized log monitoring and multi-source correlation in Splunk
-- [x] Real-time alerting and SOC dashboards
-- [ ] Detection-as-code
-- [ ] Automating repetitive triage with Python and PowerShell
-- [ ] Deeper cloud security monitoring across AWS and OCI
-
----
-
-## 📊 GitHub Analytics
 
 <div align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=GauravGhandat-23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=GauravGhandat-23&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-<br/>
-<img height="170" src="https://streak-stats.demolab.com?user=GauravGhandat-23&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</div>
 
----
+## 📊 GitHub Analytics & Verified Metrics
 
-## 🪪 Live SOC Dashboard
+<!-- Custom Animated Stats + Languages Cards -->
+<img src="./gaurav-stats.svg?v=20" alt="Gaurav Ghandat's Animated GitHub Stats" width="49%"/>
+<img src="./gaurav-langs.svg?v=20" alt="Gaurav Ghandat's Animated Language Distribution" width="49%"/>
 
-<img src="./id-dashboard.svg?v=3" width="100%" alt="Animated SOC dashboard"/>
+<br/><br/>
 
----
+<!-- Custom Animated Trophies Banner -->
+<img src="./gaurav-trophies.svg?v=20" alt="Gaurav Ghandat's GitHub Trophies" width="100%"/>
+
+<br/><br/>
+
+## 🌃 My Contribution City
+
+*Every commit builds another tower — rebuilt automatically every day.*
+
+<img src="./profile-3d-contrib/profile-night-view.svg?v=20" alt="Gaurav Ghandat's 3D Contribution City" width="100%"/>
+
+<br/><br/>
 
 ## 🐍 Contribution Snake
 
-<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake-dark.svg?v=3"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg?v=3"/>
-  <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-snake.svg?v=3"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-contribution-grid-snake-dark.svg?v=20"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-contribution-grid-snake.svg?v=20"/>
+  <img src="https://raw.githubusercontent.com/GauravGhandat-23/GauravGhandat-23/output/github-contribution-grid-snake.svg?v=20" alt="Contribution Snake Animation" width="100%"/>
 </picture>
-</div>
 
----
+<br/><br/>
 
-## 📫 Connect
+## 🪪 Verified SOC Defender ID
 
-<img src="./connect.svg?v=3" width="100%" alt="Animated connect section"/>
+<img src="./gaurav-lanyard.svg?v=20" alt="Gaurav Ghandat — Swinging SOC Defender ID Badge" width="380"/>
+
+<br/><br/>
+
+<!-- LET'S CONNECT SECTION -->
+<img src="./connect.svg?v=20" alt="Connect with Gaurav Ghandat" width="100%"/>
 
 <br/>
 
-<div align="center">
-
-<a href="mailto:gauravghandat23@gmail.com"><img src="https://img.shields.io/badge/Email-gauravghandat23%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://linkedin.com/in/gaurav-ghandat-68a5a22b4" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Gaurav%20Ghandat-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://github.com/GauravGhandat-23" target="_blank"><img src="https://img.shields.io/badge/GitHub-GauravGhandat--23-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://github.com/GauravGhandat-23"><img src="https://img.shields.io/badge/GitHub-GauravGhandat--23-00e5ff?style=for-the-badge&logo=github&logoColor=070a12" alt="GitHub"/></a>
+<a href="https://linkedin.com/in/gaurav-ghandat-68a5a22b4" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Gaurav%20Ghandat-38bdf8?style=for-the-badge&logo=linkedin&logoColor=070a12" alt="LinkedIn"/></a>
+<a href="mailto:gauravghandat23@gmail.com"><img src="https://img.shields.io/badge/Email-gauravghandat23%40gmail.com-f472b6?style=for-the-badge&logo=gmail&logoColor=070a12" alt="Email"/></a>
 
 <br/><br/>
 
